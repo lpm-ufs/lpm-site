@@ -58,7 +58,7 @@ function Navbar() {
               to="heroSection"
               className="navbar--content"
             >
-              Home
+              Inicio
             </Link>
           </li>
           <li>
@@ -72,7 +72,36 @@ function Navbar() {
               to="MyPortfolio"
               className="navbar--content"
             >
-              Portfolio
+              Projetos
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to=""
+              className="navbar--content"
+            >
+              Projeto 1
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to=""
+              className="navbar--content"
+            >
+              Projeto 2
             </Link>
           </li>
           <li>
@@ -89,20 +118,6 @@ function Navbar() {
               About Me
             </Link>
           </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="testimonial"
-              className="navbar--content"
-            >
-              Testimonials
-            </Link>
-          </li>
         </ul>
       </div>
       <Link
@@ -113,7 +128,7 @@ function Navbar() {
         offset={-70}
         duration={500}
         to="Contact"
-        className="btn btn-outline-primary"
+        className="navbar--content"
       >
         Contact Me
       </Link>
