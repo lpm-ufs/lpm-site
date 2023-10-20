@@ -55,7 +55,7 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="heroSection"
+              to="AboutMe"
               className="navbar--content"
             >
               Inicio
@@ -112,7 +112,7 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="AboutMe"
+              to=""
               className="navbar--content"
             >
               About Me
