@@ -52,7 +52,7 @@
     {
       "id": "1",
       "count": "5",
-      "src": "./img/avatar-image.png",
+      "src": "./img/fabricia.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "author_name": "Fabrícia Rezende",
       "author_designation": "Engenharia de Computação"
@@ -60,7 +60,7 @@
     {
       "id": "2",
       "count": "5",
-      "src": "./img/avatar-image-1.png",
+      "src": "./img/yuming.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "author_name": "Yuming Ruan",
       "author_designation": "Engenharia de Computação"
@@ -68,15 +68,7 @@
     {
       "id": "3",
       "count": "5",
-      "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "José Dhonatas",
-      "author_designation": "Engenharia de Computação"
-    },
-    {
-      "id": "4",
-      "count": "5",
-      "src": "./img/avatar-image-2.png",
+      "src": "./img/eu.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "author_name": "José Dhonatas",
       "author_designation": "Engenharia de Computação"

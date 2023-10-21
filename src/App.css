@@ -419,6 +419,8 @@ h2 {
   gap: 5.33px;
 }
 .testimonial--section--card--author--detail {
+  width:75;
+  height:76px; 
   display: flex;
   align-items: center;
   gap: 21.3px;
