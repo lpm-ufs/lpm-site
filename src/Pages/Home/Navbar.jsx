@@ -104,20 +104,6 @@ function Navbar() {
               Projeto 2
             </Link>
           </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to=""
-              className="navbar--content"
-            >
-              About Me
-            </Link>
-          </li>
         </ul>
       </div>
       <Link
@@ -130,7 +116,7 @@ function Navbar() {
         to="Contact"
         className="navbar--content"
       >
-        Contact Me
+        Contato
       </Link>
     </nav>
   );
