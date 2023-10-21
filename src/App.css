@@ -309,7 +309,7 @@ h2 {
 
 /* About Us */
 .about--section {
-  display: grid;
+  display: center;
   padding: 133.3px 85.3px;
   align-items: center;
   gap: 114.6px;
