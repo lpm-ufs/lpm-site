@@ -73,5 +73,16 @@
       "author_name": "José Dhonatas",
       "author_designation": "Engenharia de Computação"
     }
+  ],
+  "testimonial2": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/prof_alexandre.png",
+      "description": "Doutorado em Engenharia Mecânica pela EESC-USP, Mestrado em Engenharia Mecânica pelo ITA, e graduação em Engenharia Mecatrônica pela EESC-USP.",
+      "author_name": "Alexandre Carlos Rodrigues Ramos ",
+      "author_designation": "Engenharia de Computação",
+      "email": "alexandre.ramos@academico.ufs.br"
+    }
   ]
 }
