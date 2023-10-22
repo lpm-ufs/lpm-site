@@ -28,24 +28,24 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/arduino.jpg",
+      "title": "Projeto 1",
+      "description": "O projeto é muito importante, ele foi projetado para projetar uma visão projetista acerca do projetivismo",
+      "link": "Leia mais"
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/arduino.jpg",
+      "title": "Projeto 2",
+      "description": "O projeto é muito importante, ele foi projetado para projetar uma visão projetista acerca do projetivismo",
+      "link": "Leia mais"
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/arduino.jpg",
+      "title": "Projeto 3",
+      "description": "O projeto é muito importante, ele foi projetado para projetar uma visão projetista acerca do projetivismo",
+      "link": "Leia mais"
     }
   ],
   "testimonial": [
