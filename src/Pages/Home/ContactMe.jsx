@@ -8,7 +8,7 @@ const emailLinkStyle = {
 
 export default function ContactMe() {
   return (
-    <section className="testimonial--section" id="testimonial2">
+    <section className="about--section" id="testimonial2">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
           <h2 className="sections--heading">Contato</h2>
