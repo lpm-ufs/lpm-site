@@ -309,6 +309,7 @@ h2 {
 
 /* About Us */
 .about--section {
+  background-color: var(--bg-shade);
   display: center;
   padding: 133.3px 85.3px;
   align-items: center;
