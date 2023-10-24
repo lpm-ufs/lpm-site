@@ -5,8 +5,8 @@ export default function Testimonial() {
     <section className="testimonial--section" id="testimonial">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-
-          <h2 className="sections--heading">Alunos</h2>
+        <h2 className="sections--heading">Alunos Vinculados ao Laboratório</h2>
+          <p className="sub--title">Alunos de Iniciação Cientifica e Tecnológica</p>
         </div>
       </div>
       <div className="portfolio--section--container">
@@ -28,6 +28,19 @@ export default function Testimonial() {
           </div>
         ))}
         
+      </div>
+      <br></br>
+      <div className="portfolio--container-box">
+        <div className="portfolio--container">
+          <p className="sub--title">Alunos de Trabalho de Conclusão de Curso</p>
+        </div>
+      </div>
+
+      <br></br>
+      <div className="portfolio--container-box">
+        <div className="portfolio--container">
+          <p className="sub--title">Alunos de Pós-graduação</p>
+        </div>
       </div>
       
     </section>
