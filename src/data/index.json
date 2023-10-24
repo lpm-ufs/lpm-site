@@ -25,7 +25,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
     }
   ],
-  "portfolio": [
+  "projeto": [
     {
       "id": "1",
       "src": "./img/arduino.jpg",
@@ -53,6 +53,34 @@
       "title": "Monitoramento da Saúde Estrutural (SHM)",
       "description": "O projeto é muito importante, ele foi projetado para projetar uma visão projetista acerca do projetivismo",
       "link": "Leia mais"
+    },
+    {
+      "id": "5",
+      "src": "./img/arduino.jpg",
+      "title": "Internet das Coisas (IoT)",
+      "description": "O projeto é muito importante, ele foi projetado para projetar uma visão projetista acerca do projetivismo",
+      "link": "Leia mais"
+    },
+    {
+      "id": "6",
+      "src": "./img/arduino.jpg",
+      "title": "Enxame de Drones",
+      "description": "O projeto é muito importante, ele foi projetado para projetar uma visão projetista acerca do projetivismo",
+      "link": "Leia mais"
+    },
+    {
+      "id": "7",
+      "src": "./img/arduino.jpg",
+      "title": "Energias Renováveis",
+      "description": "O projeto é muito importante, ele foi projetado para projetar uma visão projetista acerca do projetivismo",
+      "link": "Leia mais"
+    },
+    {
+      "id": "8",
+      "src": "",
+      "title": "",
+      "description": "",
+      "link": ""
     }
   ],
   "testimonial": [
