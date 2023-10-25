@@ -5,7 +5,7 @@ export default function Testimonial() {
   const filteredStudentCi = data?.student_ci?.filter(item => item.id < 4);
 
   return (
-    <section className="testimonial--section" id="testimonial">
+    <section className="testimonial--section" id="students">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
           <h2 className="sections--heading">Alunos Vinculados ao Laboratório</h2>
