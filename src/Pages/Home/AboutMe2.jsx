@@ -1,6 +1,6 @@
 export default function AboutMe2() {
     return (
-      <section id="AboutMe" className="about--section2">
+      <section id="AboutMe2" className="about--section2">
         <div className="about--section--img">
           <img src="./img/equipamentos.png" alt="About Me" />
         </div>

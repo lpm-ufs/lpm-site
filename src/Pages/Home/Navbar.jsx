@@ -61,6 +61,21 @@ function Navbar() {
               Inicio
             </Link>
           </li>
+
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="AboutMe2"
+              className="navbar--content"
+            >
+              Equipamentos
+            </Link>
+          </li>
           <li>
             <Link
               onClick={closeMenu}
@@ -72,9 +87,10 @@ function Navbar() {
               to="MyPortfolio"
               className="navbar--content"
             >
-              Projetos
+              Projetos de Pesquisa
             </Link>
           </li>
+
         </ul>
       </div>
       <Link

@@ -2,7 +2,7 @@ import data from "../../data/index.json";
 
 export default function Testimonial() {
   // Filtrar depoimentos com ID maior que 4
-  const filteredStudentCi = data?.student_ci?.filter(item => item.id > 4);
+  const filteredStudentCi = data?.student_ci?.filter(item => item.id < 4);
 
   return (
     <section className="testimonial--section" id="testimonial">
@@ -14,11 +14,11 @@ export default function Testimonial() {
       </div>
       <div className="portfolio--section--container">
         {filteredStudentCi?.map((item, index) => (
-          <div key={index} className="">
+          <div key={index} className="testimonial--section--card">
             <div className="testimonial--section--card--review">
             </div>
             <div className="testimonial--section--card--author--detail">
-              <img src={item.src} alt="Avatar" width="75" height="76" />
+            <img src={item.src} alt="Avatar" width="75" height="76" />
               <div>
                 <p className="text-md testimonial--author--name">
                   {item.author_name}
@@ -28,6 +28,8 @@ export default function Testimonial() {
                 </p>
               </div>
             </div>
+            <p className="text-md">{item.description}</p>
+
           </div>
         ))}
       </div>
