@@ -112,7 +112,7 @@
       "id": "4",
       "count": "5",
       "src": "./img/yuming.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Monitoramento online de estruturas por inteligência artificial.",
       "author_name": "Yuming Ruan",
       "author_designation": "Engenharia de Computação"
     }, 
@@ -120,7 +120,7 @@
       "id": "5",
       "count": "5",
       "src": "./img/yuming.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Sistema ARP de baixo custo para inspeção aérea por fotogrametria.",
       "author_name": "Tiago Santana Silva",
       "author_designation": "Engenharia de Elétrica"
     },
@@ -128,7 +128,7 @@
       "id": "6",
       "count": "5",
       "src": "./img/yuming.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Sistema ARP de baixo custo para inspeção aérea para detecção de falhas em infraestruturas.",
       "author_name": "Rafael Ferrari Lobato",
       "author_designation": "Engenharia Eletrônica"
     },
@@ -136,7 +136,7 @@
       "id": "7",
       "count": "5",
       "src": "./img/yuming.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Sistema ARP de baixo custo para inspeção aérea e previsão de desastres por Inteligência Artificial.",
       "author_name": "Matheus Melo Medeiros",
       "author_designation": "Engenharia Mecânica"
     },
@@ -144,7 +144,7 @@
       "id": "8",
       "count": "5",
       "src": "./img/yuming.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Uso de enxame de drones para aplicações em inspeções do setor de óleo e gás.",
       "author_name": "Gustavo Oliveira Moura",
       "author_designation": "Engenharia de Computação"
     },
@@ -152,7 +152,7 @@
       "id": "9",
       "count": "5",
       "src": "./img/yuming.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Novos Conceitos de Turbinas Eólicas Verticais sem Hélices na Geração de Energia Limpa e Silenciosa.",
       "author_name": "Gutemberg Souza Santos",
       "author_designation": "Engenharia Mecânica"
     },
@@ -160,7 +160,7 @@
       "id": "9",
       "count": "5",
       "src": "./img/eu.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Monitoramento online de estruturas por gêmeos digitais e inteligência Artificial.",
       "author_name": "José Dhonatas Alves Sales",
       "author_designation": "Engenharia de Computação"
     }
