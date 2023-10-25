@@ -4,7 +4,7 @@ export default function Testimonial() {
   const studentCi = data?.student_ci || [];
   const studentsInGroupsOfThree = [];
 
-  // Dividir os dados em grupos de trêss
+  // Dividir os dados em grupos de três
   for (let i = 0; i < studentCi.length; i += 3) {
     studentsInGroupsOfThree.push(studentCi.slice(i, i + 3));
   }
@@ -20,21 +20,27 @@ export default function Testimonial() {
       {studentsInGroupsOfThree.map((group, groupIndex) => (
         <div key={groupIndex} className="portfolio--section--container">
           {group.map((item, index) => (
-            <div key={index} className="testimonial--section--card">
-              <div className="testimonial--section--card--review"></div>
-              <div className="testimonial--section--card--author--detail">
-                <img src={item.src} alt="Avatar" width="75" height="76" />
-                <div>
-                  <p className="text-md testimonial--author--name">
-                    {item.author_name}
-                  </p>
-                  <p className="text-md testimonial--author--designation">
-                    {item.author_designation}
-                  </p>
-                </div>
-              </div>
-              <p className="text-md">{item.description}</p>
+            item.id == 10 ?               <div key={index} className="testimonial--section--card2">
+            <div className="testimonial--section--card--review"></div>
+            <div className="testimonial--section--card--author--detail">
             </div>
+          </div> : (
+              <div key={index} className="testimonial--section--card">
+                <div className="testimonial--section--card--review"></div>
+                <div className="testimonial--section--card--author--detail">
+                  <img src={item.src} alt="Avatar" width="75" height="76" />
+                  <div>
+                    <p className="text-md testimonial--author--name">
+                      {item.author_name}
+                    </p>
+                    <p className="text-md testimonial--author--designation">
+                      {item.author_designation}
+                    </p>
+                  </div>
+                </div>
+                <p className="text-md">{item.description}</p>
+              </div>
+            )
           ))}
         </div>
       ))}
@@ -53,24 +59,25 @@ export default function Testimonial() {
 
       <div className="portfolio--section--container">
         {data?.students_tcc?.map((item, index) => (
-          <div key={index} className="testimonial--section--card">
-            <div className="testimonial--section--card--review"></div>
-            <div className="testimonial--section--card--author--detail">
-              <img src={item.src} alt="Avatar" width="75" height="76" />
-              <div>
-                <p className="text-md testimonial--author--name">
-                  {item.author_name}
-                </p>
-                <p className="text-md testimonial--author--designation">
-                  {item.author_designation}
-                </p>
+          item.id === 10 ? null : (
+            <div key={index} className="testimonial--section--card">
+              <div className="testimonial--section--card--review"></div>
+              <div className="testimonial--section--card--author--detail">
+                <img src={item.src} alt="Avatar" width="75" height="76" />
+                <div>
+                  <p className="text-md testimonial--author--name">
+                    {item.author_name}
+                  </p>
+                  <p className="text-md testimonial--author--designation">
+                    {item.author_designation}
+                  </p>
+                </div>
               </div>
+              <p className="text-md">{item.description}</p>
             </div>
-            <p className="text-md">{item.description}</p>
-          </div>
+          )
         ))}
       </div>
-
     </section>
   );
 }
