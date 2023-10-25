@@ -83,17 +83,25 @@
       "link": ""
     }
   ],
-  "testimonial": [
+  "student_ci": [
     {
       "id": "1",
       "count": "5",
       "src": "./img/fabricia.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Fabrícia Rezende",
-      "author_designation": "Engenharia de Computação"
+      "author_name": "José Mascarenhas Lima Neto",
+      "author_designation": "Engenharia Elétrica"
     },
     {
       "id": "2",
+      "count": "5",
+      "src": "./img/yuming.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Daniel de Sousa Santos",
+      "author_designation": "Engenharia de Mecânica"
+    },
+    {
+      "id": "3",
       "count": "5",
       "src": "./img/yuming.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
@@ -101,13 +109,63 @@
       "author_designation": "Engenharia de Computação"
     },
     {
-      "id": "3",
+      "id": "4",
+      "count": "5",
+      "src": "./img/yuming.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Yuming Ruan",
+      "author_designation": "Engenharia de Computação"
+    }, 
+    {
+      "id": "5",
+      "count": "5",
+      "src": "./img/yuming.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Tiago Santana Silva",
+      "author_designation": "Engenharia de Elétrica"
+    },
+    {
+      "id": "6",
+      "count": "5",
+      "src": "./img/yuming.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Rafael Ferrari Lobato",
+      "author_designation": "Engenharia Eletrônica"
+    },
+    {
+      "id": "7",
+      "count": "5",
+      "src": "./img/yuming.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Matheus Melo Medeiros",
+      "author_designation": "Engenharia Mecânica"
+    },
+    {
+      "id": "8",
+      "count": "5",
+      "src": "./img/yuming.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Gustavo Oliveira Moura",
+      "author_designation": "Engenharia de Computação"
+    },
+    {
+      "id": "9",
+      "count": "5",
+      "src": "./img/yuming.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Gutemberg Souza Santos",
+      "author_designation": "Engenharia Mecânica"
+    },
+    {
+      "id": "9",
       "count": "5",
       "src": "./img/eu.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "José Dhonatas",
+      "author_name": "José Dhonatas Alves Sales",
       "author_designation": "Engenharia de Computação"
     }
+
+
   ],
   "testimonial2": [
     {
@@ -119,5 +177,27 @@
       "author_designation": "Engenharia de Computação",
       "email": "alexandre.ramos@academico.ufs.br"
     }
+  ],
+
+  "students_tcc": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/prof_alexandre.png",
+      "description": "Doutorado em Engenharia Mecânica pela EESC-USP, Mestrado em Engenharia Mecânica pelo ITA, e graduação em Engenharia Mecatrônica pela EESC-USP.",
+      "author_name": "Vinicius Amorim Santos",
+      "author_designation": "Engenharia Mecânica",
+      "email": "alexandre.ramos@academico.ufs.br"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/prof_alexandre.png",
+      "description": "Doutorado em Engenharia Mecânica pela EESC-USP, Mestrado em Engenharia Mecânica pelo ITA, e graduação em Engenharia Mecatrônica pela EESC-USP.",
+      "author_name": "Isaac Mario Lima Santiago",
+      "author_designation": "Engenharia Mecânica",
+      "email": "alexandre.ramos@academico.ufs.br"
+    }
   ]
+
 }

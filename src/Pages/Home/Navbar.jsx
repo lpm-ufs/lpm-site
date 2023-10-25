@@ -75,35 +75,6 @@ function Navbar() {
               Projetos
             </Link>
           </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to=""
-              className="navbar--content"
-            >
-              Projeto 1
-            </Link>
-          </li>
-
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to=""
-              className="navbar--content"
-            >
-              Projeto 2
-            </Link>
-          </li>
         </ul>
       </div>
       <Link
