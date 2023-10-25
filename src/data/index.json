@@ -87,8 +87,8 @@
     {
       "id": "1",
       "count": "5",
-      "src": "./img/fabricia.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "src": "./img/yuming.png",
+      "description": "Monitoramento Estrutural de Torre de Transmissão de Energia por Internet das Coisas",
       "author_name": "José Mascarenhas Lima Neto",
       "author_designation": "Engenharia Elétrica"
     },
@@ -96,7 +96,7 @@
       "id": "2",
       "count": "5",
       "src": "./img/yuming.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Desenvolvimento de Projeto Mecânico e Estrutural de uma Torre de Transmissão de Energia Aplicada para Monitoramento de Saúde Estrutural",
       "author_name": "Daniel de Sousa Santos",
       "author_designation": "Engenharia de Mecânica"
     },
@@ -104,7 +104,7 @@
       "id": "3",
       "count": "5",
       "src": "./img/yuming.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Monitoramento online de estruturas por inteligência artificial.",
       "author_name": "Yuming Ruan",
       "author_designation": "Engenharia de Computação"
     },
