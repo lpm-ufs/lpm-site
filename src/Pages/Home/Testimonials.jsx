@@ -1,7 +1,6 @@
 import data from "../../data/index.json";
 
 export default function Testimonial() {
-  // Filtrar depoimentos com ID maior que 4
   const filteredStudentCi = data?.student_ci?.filter(item => item.id < 4);
 
   return (

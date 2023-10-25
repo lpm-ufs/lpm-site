@@ -4,6 +4,7 @@ import Footer from "../Footer";
 import MyPortfolio from "../MyPortfolio";
 import Testimonial from "../Testimonials";
 import AboutMe2 from "../AboutMe2";
+import AboutMe3 from "../AboutMe3";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <AboutMe />
       <AboutMe2></AboutMe2>
       <MyPortfolio />
+      <AboutMe3/>
       <Testimonial />
       <ContactMe />
       <Footer />

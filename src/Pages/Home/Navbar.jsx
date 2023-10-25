@@ -99,6 +99,21 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
+              to="AboutMe3"
+              className="navbar--content"
+            >
+              Projetos de Extensão
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
               to="students"
               className="navbar--content"
             >
