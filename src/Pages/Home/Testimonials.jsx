@@ -53,7 +53,11 @@ export default function Testimonial() {
 
       <div className="portfolio--section--container">
         {data?.students_tcc?.map((item, index) => (
-          item.id === 10 ? null : (
+          item.id == 10 ? <div key={index} className="testimonial--section--card2">
+          <div className="testimonial--section--card--review"></div>
+          <div className="testimonial--section--card--author--detail">
+          </div>
+        </div> : (
             <div key={index} className="testimonial--section--card">
               <div className="testimonial--section--card--review"></div>
               <div className="testimonial--section--card--author--detail">
@@ -68,6 +72,37 @@ export default function Testimonial() {
                 </div>
               </div>
               <p className="text-md">{item.description}</p>
+            </div>
+          )
+        ))}
+      </div>
+
+      <div className="portfolio--container-box">
+        <div className="portfolio--container">
+          <p className="sub--title">Alunos de Trabalho de Conclusão de Curso</p>
+        </div>
+      </div>
+
+      <div className="portfolio--section--container">
+        {data?.students_pos?.map((item, index) => (
+          item.id === 10 ?  <div key={index} className="testimonial--section--card2">
+          <div className="testimonial--section--card--review"></div>
+          <div className="testimonial--section--card--author--detail">
+          </div>
+        </div> : (
+            <div key={index} className="testimonial--section--card">
+              <div className="testimonial--section--card--review"></div>
+              <div className="testimonial--section--card--author--detail">
+                <img src={item.src} alt="Avatar" width="75" height="76" />
+                <div>
+                  <p className="text-md testimonial--author--name">
+                    {item.author_name}
+                  </p>
+                  <p className="text-md testimonial--author--designation">
+                    {item.author_designation}
+                  </p>
+                </div>
+              </div>
             </div>
           )
         ))}
