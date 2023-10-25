@@ -50,13 +50,6 @@ export default function Testimonial() {
           <p className="sub--title">Alunos de Trabalho de Conclusão de Curso</p>
         </div>
       </div>
-      <br></br>
-      
-      <div className="portfolio--container-box">
-        <div className="portfolio--container">
-          <p className="sub--title">Alunos de Pós-graduação</p>
-        </div>
-      </div>
 
       <div className="portfolio--section--container">
         {data?.students_tcc?.map((item, index) => (
