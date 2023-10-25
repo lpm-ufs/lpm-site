@@ -103,20 +103,6 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <hr className="divider" />
-      <div className="footer--content--container">
-        <div className="footer--social--icon">
-          <ul>
-            <li>
-            </li>
-            <li>
-
-            </li>
-            <li>
-            </li>
-          </ul>
-        </div>
-      </div>
     </footer>
   );
 }

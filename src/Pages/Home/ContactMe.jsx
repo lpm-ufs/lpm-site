@@ -11,7 +11,7 @@ export default function ContactMe() {
     <section className="portfolio--section" id="ContactMe">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <h2 className="sections--heading">Contato</h2>
+        <h1 className="skills-section--heading">Contato</h1>
         </div>
       </div>
       <div className="portfolio--section--container">
