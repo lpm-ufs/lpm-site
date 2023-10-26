@@ -30,7 +30,7 @@ export default function AboutMe2() {
         </div>
       </div>
       <div className="hero--section--img">
-        <img src="./img/equipamentos.png" alt="Hero Section" />
+        <img src="./img/extensao.png" alt="Hero Section" />
       </div>
     </section>
   );
