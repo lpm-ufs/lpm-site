@@ -187,6 +187,12 @@ h2 {
 .navbar--active-content {
   color: var(--primary);
 }
+.rounded-image {
+  border-radius: 50%; /* Define um raio de 50% para arredondar a imagem */
+  width: 75px; /* Largura desejada */
+  height: 76px; /* Altura desejada */
+}
+
 /* Navbar Styler Ends */
 
 /* Hero Section Style */

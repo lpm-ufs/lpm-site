@@ -27,7 +27,7 @@ export default function Testimonial() {
               <div key={index} className="testimonial--section--card">
                 <div className="testimonial--section--card--review"></div>
                 <div className="testimonial--section--card--author--detail">
-                  <img src={item.src} alt="Avatar" width="75" height="76" />
+                <img className="rounded-image" src={item.src} alt="Avatar" />
                   <div>
                     <p className="text-md testimonial--author--name">
                       {item.author_name}
@@ -59,7 +59,7 @@ export default function Testimonial() {
             <div key={index} className="testimonial--section--card">
               <div className="testimonial--section--card--review"></div>
               <div className="testimonial--section--card--author--detail">
-                <img src={item.src} alt="Avatar" width="75" height="76" />
+              <img className="rounded-image" src={item.src} alt="Avatar" />
                 <div>
                   <p className="text-md testimonial--author--name">
                     {item.author_name}
@@ -91,7 +91,7 @@ export default function Testimonial() {
             <div key={index} className="testimonial--section--card3">
               <div className="testimonial--section--card--review"></div>
               <div className="testimonial--section--card--author--detail">
-                <img src={item.src} alt="Avatar" width="75" height="76" />
+              <img className="rounded-image" src={item.src} alt="Avatar" />
                 <div>
                   <p className="text-md testimonial--author--name">
                     {item.author_name}
