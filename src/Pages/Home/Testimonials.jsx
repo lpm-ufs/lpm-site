@@ -24,7 +24,6 @@ export default function Testimonial() {
               </div>
             </div> : (
               <div key={index} className="testimonial--section--card">
-                <div className="testimonial--section--card--review"></div>
                 <div className="testimonial--section--card--author--detail">
                 <img className="rounded-image" src={item.src} alt="Avatar" />
                   <div>
