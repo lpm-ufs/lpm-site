@@ -42,21 +42,21 @@
     },
     {
       "id": "3",
-      "src": "./img/arduino.jpg",
+      "src": "./img/.png",
       "title": "Detecção de falhas em infraestruturas de óleo e gás",
       "description": "O projeto é muito importante, ele foi projetado para projetar uma visão projetista acerca do projetivismo",
       "link": "Leia mais"
     }, 
     {
       "id": "4",
-      "src": "./img/arduino.jpg",
+      "src": "./img/monitoramento_saude.png",
       "title": "Monitoramento da Saúde Estrutural (SHM)",
       "description": "O projeto é muito importante, ele foi projetado para projetar uma visão projetista acerca do projetivismo",
       "link": "Leia mais"
     },
     {
       "id": "5",
-      "src": "./img/arduino.jpg",
+      "src": "./img/enxame_drones.png",
       "title": "Internet das Coisas (IoT)",
       "description": "O projeto é muito importante, ele foi projetado para projetar uma visão projetista acerca do projetivismo",
       "link": "Leia mais"
