@@ -28,14 +28,14 @@
   "projeto": [
     {
       "id": "1",
-      "src": "./img/arduino.jpg",
+      "src": "./img/fotogrametria_drone.png",
       "title": "Fotogrametria Aérea por Drones",
       "description": "O projeto é muito importante, ele foi projetado para projetar uma visão projetista acerca do projetivismo",
       "link": "Leia mais"
     },
     {
       "id": "2",
-      "src": "./img/arduino.jpg",
+      "src": "./img/embarcados_drones.png",
       "title": "Inteligência artificial embarcadas em drones",
       "description": "O projeto é muito importante, ele foi projetado para projetar uma visão projetista acerca do projetivismo",
       "link": "Leia mais"
@@ -63,14 +63,14 @@
     },
     {
       "id": "6",
-      "src": "./img/arduino.jpg",
+      "src": "./img/enxame_drones.png",
       "title": "Enxame de Drones",
       "description": "O projeto é muito importante, ele foi projetado para projetar uma visão projetista acerca do projetivismo",
       "link": "Leia mais"
     },
     {
       "id": "7",
-      "src": "./img/arduino.jpg",
+      "src": "./img/renovaveis.png",
       "title": "Energias Renováveis",
       "description": "O projeto é muito importante, ele foi projetado para projetar uma visão projetista acerca do projetivismo",
       "link": "Leia mais"

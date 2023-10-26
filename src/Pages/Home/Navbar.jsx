@@ -121,6 +121,21 @@ function Navbar() {
             </Link>
           </li>
 
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="Publish"
+              className="navbar--content"
+            >
+              Publicações
+            </Link>
+          </li>
+
         </ul>
       </div>
       <Link
