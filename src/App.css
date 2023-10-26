@@ -169,7 +169,7 @@ h2 {
   list-style: none;
   display: flex;
   align-items: flex-start;
-  gap: 42.667px;
+  gap: 20.667px;
   text-decoration: none;
 }
 .navbar--items ul > li > a {
