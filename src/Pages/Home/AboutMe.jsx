@@ -1,4 +1,5 @@
 export default function AboutMe() {
+  
   return (
     <section id="AboutMe" className="hero--section">
       <div className="hero--section--content--box about--section--box">
