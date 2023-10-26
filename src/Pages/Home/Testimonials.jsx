@@ -20,7 +20,6 @@ export default function Testimonial() {
         <div key={groupIndex} className="portfolio--section--container">
           {group.map((item, index) => (
             item.id == 10 ? <div key={index} className="testimonial--section--card2">
-              <div className="testimonial--section--card--review"></div>
               <div className="testimonial--section--card--author--detail">
               </div>
             </div> : (
@@ -52,7 +51,6 @@ export default function Testimonial() {
       <div className="portfolio--section--container">
         {data?.students_tcc?.map((item, index) => (
           item.id == 10 ? <div key={index} className="testimonial--section--card2">
-            <div className="testimonial--section--card--review"></div>
             <div className="testimonial--section--card--author--detail">
             </div>
           </div> : (
