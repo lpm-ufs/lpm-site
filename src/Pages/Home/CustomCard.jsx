@@ -13,7 +13,7 @@ export default function CustomCard({ imageUrl, authorName, authorDesignation, de
       <CardHeader
         avatar={<Avatar src={imageUrl} alt="Avatar" sx={{ width: 60, height: 60 }} />}
         title={<Typography variant="h6" color="black">{authorName}</Typography>}
-        subheader={<Typography variant="body2" color="textSecondary">{authorDesignation}</Typography>}
+        subheader={<Typography variant="body2" color="textPrimary">{authorDesignation}</Typography>}
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" style={{ maxHeight: "100px", overflow: "hidden", color: "black", fontSize: "1rem" }}>

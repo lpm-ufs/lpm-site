@@ -10,7 +10,7 @@ export default function Testimonial() {
     <section className="testimonial--section" id="students">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <h2 className="sections--heading">Alunos de Iniciação Científica e Tecnológica</h2>
+          <h2 className="skills-section--heading">Alunos de Iniciação Científica e Tecnológica</h2>
         </div>
       </div>
       <div style={{}}>
@@ -24,7 +24,7 @@ export default function Testimonial() {
           </Grid>
         </Container>
       </div>
-      <h2 className="sections--heading">Alunos de Trabalho de Conclusão de Curso</h2>
+      <h2 className="skills-section--heading">Alunos de Trabalho de Conclusão de Curso</h2>
       <div style={{}}>
         <Container maxWidth={false}>
           <Grid container spacing={3}>
@@ -37,7 +37,7 @@ export default function Testimonial() {
         </Container>
       </div>
 
-      <h2 className="sections--heading">Alunos de Pós-Graduação </h2>
+      <h2 className="skills-section--heading">Alunos de Pós-Graduação </h2>
       <div style={{}}>
         <Container maxWidth={false}>
           <Grid container spacing={3}>
