@@ -83,6 +83,10 @@ p {
 /* Main Headings */
 
 /* Heading 1 */
+.navbar {
+  z-index: 9999; /* Defina um valor alto */
+}
+
 p {
   text-align: justify;
 }

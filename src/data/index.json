@@ -163,23 +163,6 @@
       "description": "Monitoramento online de estruturas por gêmeos digitais e inteligência Artificial.",
       "author_name": "José Dhonatas Alves Sales",
       "author_designation": "Engenharia de Computação"
-    },
-
-    {
-      "id": "10",
-      "count": "5",
-      "src": "./img/eu.png",
-      "description": "Monitoramento online de estruturas por gêmeos digitais e inteligência Artificial.",
-      "author_name": "José Dhonatas Alves Sales",
-      "author_designation": "Engenharia de Computação"
-    },
-    {
-      "id": "10",
-      "count": "5",
-      "src": "./img/eu.png",
-      "description": "Monitoramento online de estruturas por gêmeos digitais e inteligência Artificial.",
-      "author_name": "José Dhonatas Alves Sales",
-      "author_designation": "Engenharia de Computação"
     }
 
 
@@ -214,15 +197,6 @@
       "author_name": "Isaac Mario Lima Santiago",
       "author_designation": "Engenharia Mecânica",
       "email": "alexandre.ramos@academico.ufs.br"
-    },
-    {
-      "id": "10",
-      "count": "5",
-      "src": "./img/yuming.png",
-      "description": "Análise Estática e de Fadiga de um Semi Eixo de veículo De Competição Fórmula Sae utilizando o Método Dos Elementos Finitos.",
-      "author_name": "Isaac Mario Lima Santiago",
-      "author_designation": "Engenharia Mecânica",
-      "email": "alexandre.ramos@academico.ufs.br"
     }
   ],
 
@@ -233,16 +207,16 @@
       "src": "./img/italo.jpg",
       "description": "Metamateriais Periódicos.",
       "author_name": "Italo Matos Araújo ",
-      "author_designation": "Metamateriais Periódicos",
+      "author_designation": "Engenharia Mecânica",
       "email": "alexandre.ramos@academico.ufs.br"
     },
     {
       "id": "2",
       "count": "5",
       "src": "./img/fabricia.png",
-      "description": "Análise Estática e de Fadiga de um Semi Eixo de veículo De Competição Fórmula Sae utilizando o Método Dos Elementos Finitos.",
+      "description": "Enxame de drones",
       "author_name": "Fabricia Karollyne Santos Resende",
-      "author_designation": "Enxame de Drones",
+      "author_designation": "Engenharia Mecânica",
       "email": "alexandre.ramos@academico.ufs.br"
     }
   ]
