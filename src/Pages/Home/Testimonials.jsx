@@ -37,7 +37,7 @@ export default function Testimonial() {
         </Container>
       </div>
 
-      <h2 className="sections--heading">Alunos de Trabalho de Conclusão de Curso</h2>
+      <h2 className="sections--heading">Alunos de Pós-Graduação </h2>
       <div style={{}}>
         <Container maxWidth={false}>
           <Grid container spacing={3}>
