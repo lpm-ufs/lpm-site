@@ -1,4 +1,4 @@
-# PGEmail
+# LPM
 
 ## Sobre o projeto
 Site Criado para o Laboratório de Projetos Mecânicos.
