@@ -6,7 +6,12 @@ export default function AboutMe2() {
         <div className="hero--section--content">
           <h1 className="skills-section--heading">Equipamentos</h1>
           <p className="hero--section-description">
-            O laboratório conta com ampla infraestrutura, como sistemas avançados de metrologia, como máquina de medir coordenadas por braço articulado com ponta de rubi e por escâner, desempeno, balança analítica de precisão, câmeras nos espectros visível e infravermelho, equipamentos de metrologia analógico, aeronaves remotamente pilotadas, impressoras 3D,  transmissores Lorawan, gateways 915 MHz, osciloscópios, fonte de alimentação, gerador de funções, sistema eletrônicos básicos (Esp32, Arduino, Haspberry etc), computadores com alta capacidade de processamento (32 GB de RAM) e diversos softwares de engenharia.             </p>
+          O laboratório conta com ampla infraestrutura de engenharia, que inclui sistemas avançados de metrologia, como máquinas de medir coordenadas, braços articulados e scanners. Além disso, possui desempeno, balanças analíticas de precisão, câmeras nos espectros visível e infravermelho, equipamentos de metrologia analógicos, aeronaves remotamente pilotadas, impressoras 3D, transmissores Lorawan, gateways 915 MHz, osciloscópios, fontes de alimentação, geradores de funções e sistemas eletrônicos básicos (Esp32, Arduino, Raspberry, etc.). O laboratório também está equipado com computadores de alta capacidade de processamento, com 32 GB de RAM, e diversos softwares de engenharia.
+
+
+
+
+</p>
         </div>
       </div>
       <div className="hero--section--img">
