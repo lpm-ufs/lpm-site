@@ -6,6 +6,11 @@
         "Projetos de Extensão": "Extension Projects",
         "Alunos": "Students",
         "Publicações": "Publications",
-        "Contato": "Contact"
+        "Contato": "Contact",
+        "t1_sobre": "The Mechanical Projects Laboratory of the Department of Mechanical Engineering at the Federal University of Sergipe conducts education, research, and extension in various engineering fields. The laboratory is part of the Technological Center for Advanced Engineering (CTEA), a multi-user complex at UFS, and serves research and extension students daily.",
+        "t2_sobre": "It conducts research in remotely piloted aircraft, drone swarms, metamaterials, computer vision, Structural Health Monitoring, metrology, artificial intelligence, photogrammetry, and renewable energies. It also develops extension projects such as mini-rocket workshops, astronomy, and UFS rocket and cubesat teams (Zenith).",
+        "Sobre": "About",
+        "t1_equipamentos": "The laboratory is equipped with extensive engineering infrastructure, including advanced metrology systems such as coordinate measuring machines, articulated arms, and scanners. Additionally, it has planers, precision analytical balances, cameras in the visible and infrared spectra, analog metrology equipment, remotely piloted aircraft, 3D printers, Lorawan transmitters, 915 MHz gateways, oscilloscopes, power supplies, function generators, and basic electronic systems (Esp32, Arduino, Raspberry, etc.). The laboratory is also equipped with high-capacity processing computers with 32 GB of RAM and various engineering software.",
+        "t1_extensao": "The Mechanical Projects Laboratory develops extension projects with undergraduate and graduate students from all courses at UFS. Among the activities are Zenith Rocketry, a team of rockets and cubesats created in 2022, and the mini-rocket and astronomy workshop."
     }
 }

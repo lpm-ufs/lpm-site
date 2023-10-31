@@ -7,7 +7,7 @@ export default function Publish() {
           <h1 className="skills-section--heading">Publicações</h1>
           <p className="hero--section-description">
             COB-2023-1609: Structural Monitoring of Power Transmission Tower by IoT            </p>
-          <p className="hero--section-description" style={{ whiteSpace: 'nowrap' }}>
+          <p className="hero--section-description" >
             COB-2023-1620: Development of Mechanical and Structural Design of a Transmission Tower Applied Energy for Structural Health Monitoring
           </p>
 

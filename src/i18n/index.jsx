@@ -15,7 +15,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'userLanguage', // Define o idioma com base no idioma do navegador
+    lng: userLanguage, 
     interpolation: {
       escapeValue: false,
     },

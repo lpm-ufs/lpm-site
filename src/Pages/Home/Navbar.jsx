@@ -4,7 +4,6 @@ import {useTranslation} from 'react-i18next';
 
 function Navbar() {
   const {t} = useTranslation();
-  console.log(t('Inicio')); // Deve exibir 'Home' no console se a tradução estiver funcionando corretamente.
 
   const [navActive, setNavActive] = useState(false);
 

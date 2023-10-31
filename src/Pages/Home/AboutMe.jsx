@@ -1,14 +1,18 @@
+import {useTranslation} from 'react-i18next';
+
 export default function AboutMe() {
+  const {t} = useTranslation();
+
   return (
     <section id="AboutMe" className="hero--section">
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
-          <h1 className="skills-section--heading">Sobre</h1>
+          <h1 className="skills-section--heading">{t('Sobre')}</h1>
           <p className="hero--section-description">
-            O laboratório de Projetos Mecânicos do Departamento de Engenharia Mecânica da Universidade Federal de Sergipe desenvolve ensino, pesquisa e extensão em diversos ramos da engenharia. O laboratório faz parte do Centro Tecnológico em Engenharia Avançada (CTEA), condomínio multiusuário da UFS e atende diariamente alunos de pesquisa e extensão.
+            {t('t1_sobre')}
           </p>
           <p className="hero--section-description">
-            Desenvolve pesquisas em aeronaves remotamente pilotadas, enxames de drones, metamateriais, visão computacional, Structural Health Monitoring, metrologia, inteligência artificial, fotogrametria e energias renováveis, bem como desenvolve projetos de extensão como a oficina de minifoguetes e astronomia e equipes de foguetes e cubesats da UFS (Zenith).</p>
+          {t('t1_sobre')}</p>
         </div>
       </div>
       <div className="hero--section--img">

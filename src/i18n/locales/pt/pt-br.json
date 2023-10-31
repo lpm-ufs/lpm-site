@@ -1,5 +1,9 @@
 {
     "translation":{
-        "Inicio": "Início"
+        "Inicio": "Início",
+        "t1_sobre": "O laboratório de Projetos Mecânicos do Departamento de Engenharia Mecânica da Universidade Federal de Sergipe desenvolve ensino, pesquisa e extensão em diversos ramos da engenharia. O laboratório faz parte do Centro Tecnológico em Engenharia Avançada (CTEA), condomínio multiusuário da UFS e atende diariamente alunos de pesquisa e extensão.",
+        "t2_sobre": "Desenvolve pesquisas em aeronaves remotamente pilotadas, enxames de drones, metamateriais, visão computacional, Structural Health Monitoring, metrologia, inteligência artificial, fotogrametria e energias renováveis, bem como desenvolve projetos de extensão como a oficina de minifoguetes e astronomia e equipes de foguetes e cubesats da UFS (Zenith).",
+        "t1_equipamentos": "O laboratório conta com ampla infraestrutura de engenharia, que inclui sistemas avançados de metrologia, como máquinas de medir coordenadas, braços articulados e scanners. Além disso, possui desempeno, balanças analíticas de precisão, câmeras nos espectros visível e infravermelho, equipamentos de metrologia analógicos, aeronaves remotamente pilotadas, impressoras 3D, transmissores Lorawan, gateways 915 MHz, osciloscópios, fontes de alimentação, geradores de funções e sistemas eletrônicos básicos (Esp32, Arduino, Raspberry, etc.). O laboratório também está equipado com computadores de alta capacidade de processamento, com 32 GB de RAM, e diversos softwares de engenharia",
+        "t1_extensao": "O laboratório de projetos mecânicos desenvolve projetos de extensão com alunos de graduação e pós-graduação de todos os cursos da UFS, dentre as atividades estão a Zenith Rocketry, equipe de foguetes e cubesats criadas em 2022, e a oficina de minifoguetes e astronomia."
     }
 }

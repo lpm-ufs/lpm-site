@@ -1,11 +1,15 @@
 import data from "../../data/index.json";
+import {useTranslation} from 'react-i18next';
 
 export default function MyPortfolio() {
+  const {t} = useTranslation();
+
   return (
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <h2 className="section--heading">Projetos de Pesquisa</h2>
+          <h2 className="section--heading">{t('Projetos de Pesquisa')}
+          </h2>
         </div>
         <div>
         </div>
