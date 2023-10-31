@@ -1,9 +1,18 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
-import {useTranslation} from 'react-i18next';
+import { useTranslation } from 'react-i18next';
+import { changeLanguage } from "i18next";
 
 function Navbar() {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
+
+  const changeToEnglish = () => {
+    changeLanguage("en-US");
+  };
+
+  const changeToPortuguese = () => {
+    changeLanguage("pt-BR");
+  };
 
   const [navActive, setNavActive] = useState(false);
 
@@ -38,8 +47,10 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-      <img src="./img/logo3.png" alt="Logoipsum" height="40"/>
+        <img src="./img/logo3.png" alt="Logoipsum" height="40" />
       </div>
+
+
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
@@ -139,10 +150,23 @@ function Navbar() {
             </Link>
           </li>
 
+
         </ul>
       </div>
+
+      <div>
+        <img
+          src="../img/eua.png"
+          onClick={changeToEnglish}
+          className="flag-icon"
+        />
+        <img
+          src="../img/br.png"
+          onClick={changeToPortuguese}
+          className="flag-icon"
+        />
+      </div>
       <Link
-        onClick={closeMenu}
         activeClass="navbar--active-content"
         spy={true}
         smooth={true}
@@ -153,7 +177,7 @@ function Navbar() {
       >
         {t('Contato')}
       </Link>
-      
+
     </nav>
   );
 }

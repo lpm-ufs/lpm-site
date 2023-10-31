@@ -822,4 +822,9 @@ input[type="checkbox"] {
   }
 }
 
-/* Responsive Screens Ends*/
+.flag-icon {
+  cursor: pointer;
+  width: 30px;
+  height: 20px;
+  margin: 0 10px; /* Isso define a margem direita e esquerda para criar espaçamento entre as bandeiras */
+}

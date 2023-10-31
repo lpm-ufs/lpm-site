@@ -8,14 +8,13 @@ const resources = {
   'en-US': ENUS,
 };
 
-// Obtém o idioma do navegador
 const userLanguage = window.navigator.language;
 
 i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: userLanguage, 
+    lng: 'pt-BR', 
     interpolation: {
       escapeValue: false,
     },
