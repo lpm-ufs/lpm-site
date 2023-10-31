@@ -1,7 +1,11 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import {useTranslation} from 'react-i18next';
 
 function Navbar() {
+  const {t} = useTranslation();
+  console.log(t('Inicio')); // Deve exibir 'Home' no console se a tradução estiver funcionando corretamente.
+
   const [navActive, setNavActive] = useState(false);
 
   const toggleNav = () => {
@@ -58,7 +62,7 @@ function Navbar() {
               to="AboutMe"
               className="navbar--content"
             >
-              Inicio
+              {t('Inicio')}
             </Link>
           </li>
 
@@ -73,7 +77,7 @@ function Navbar() {
               to="AboutMe2"
               className="navbar--content"
             >
-              Equipamentos
+              {t('Equipamentos')}
             </Link>
           </li>
           <li>
@@ -87,7 +91,7 @@ function Navbar() {
               to="MyPortfolio"
               className="navbar--content"
             >
-              Projetos de Pesquisa
+              {t('Projetos de Pesquisa')}
             </Link>
           </li>
 
@@ -102,7 +106,7 @@ function Navbar() {
               to="AboutMe3"
               className="navbar--content"
             >
-              Projetos de Extensão
+              {t('Projetos de Extensão')}
             </Link>
           </li>
 
@@ -117,7 +121,7 @@ function Navbar() {
               to="students"
               className="navbar--content"
             >
-              Alunos
+              {t('Alunos')}
             </Link>
           </li>
 
@@ -132,7 +136,7 @@ function Navbar() {
               to="Publish"
               className="navbar--content"
             >
-              Publicações
+              {t('Publicações')}
             </Link>
           </li>
 
@@ -148,7 +152,7 @@ function Navbar() {
         to="ContactMe"
         className=""
       >
-        Contato
+        {t('Contato')}
       </Link>
       
     </nav>
