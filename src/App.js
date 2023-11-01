@@ -29,7 +29,7 @@ function App() {
     <div className="App">
       <Router>
         <div>
-          {isSmallScreen ? <Navbar2 /> : <Navbar />}
+          {isSmallScreen ? <Navbar /> : <Navbar />}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="*" element={<div>404 Not Found</div>} />
