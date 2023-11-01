@@ -12,17 +12,11 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-import { Link } from "react-scroll";
-import { useTranslation } from 'react-i18next';
-import { changeLanguage } from "i18next";
-
 
 const pages = ['Inicio', 'Equipamentos', 'Projetos de Pesquisa', 'Projetos de Extensão', 'Alunos', 'Publicações'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Navbar2() {
-  const { t } = useTranslation();
-
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -42,7 +36,7 @@ function Navbar2() {
   };
 
   return (
-    <AppBar position="fixed" sx={{ backgroundColor: 'white', height: '80px' }}>
+    <AppBar position="fixed" sx={{ backgroundColor: 'white' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
@@ -96,98 +90,11 @@ function Navbar2() {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              <ul>
-                <li>
-                  <Link
-                    onClick={handleCloseNavMenu}
-                    activeClass="navbar--active-content"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                    to="AboutMe"
-                    className="navbar--content"
-                  >
-                    {t('Inicio')}
-                  </Link>
-                </li>
-
-                <li>
-                  <Link
-                    onClick={handleCloseNavMenu}
-                    activeClass="navbar--active-content"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                    to="AboutMe2"
-                    className="navbar--content"
-                  >
-                    {t('Equipamentos')}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    onClick={handleCloseNavMenu}
-                    activeClass="navbar--active-content"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                    to="MyPortfolio"
-                    className="navbar--content"
-                  >
-                    {t('Projetos de Pesquisa')}
-                  </Link>
-                </li>
-
-                <li>
-                  <Link
-                    onClick={handleCloseNavMenu}
-                    activeClass="navbar--active-content"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                    to="AboutMe3"
-                    className="navbar--content"
-                  >
-                    {t('Projetos de Extensão')}
-                  </Link>
-                </li>
-
-                <li>
-                  <Link
-                    onClick={handleCloseNavMenu}
-                    activeClass="navbar--active-content"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                    to="students"
-                    className="navbar--content"
-                  >
-                    {t('Alunos')}
-                  </Link>
-                </li>
-
-                <li>
-                  <Link
-                    onClick={handleCloseNavMenu}
-                    activeClass="navbar--active-content"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                    to="Publish"
-                    className="navbar--content"
-                  >
-                    {t('Publicações')}
-                  </Link>
-                </li>
-
-
-              </ul>
+              {pages.map((page) => (
+                <MenuItem key={page} onClick={handleCloseNavMenu}>
+                  <Typography className="navbar--content" textAlign="center" >{page}</Typography>
+                </MenuItem>
+              ))}
             </Menu>
           </Box>
           <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
@@ -222,11 +129,7 @@ function Navbar2() {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
-              </IconButton>
-            </Tooltip>
+
             <Menu
               sx={{ mt: '45px' }}
               id="menu-appbar"
