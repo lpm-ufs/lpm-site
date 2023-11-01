@@ -10,11 +10,19 @@ const resources = {
 
 const userLanguage = window.navigator.language;
 
+function getLanguage() {
+  if (resources.hasOwnProperty(userLanguage)) {
+    return userLanguage;
+  } else {
+    return 'en-US';
+  }
+}
+
 i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'pt-BR', 
+    lng: getLanguage(), 
     interpolation: {
       escapeValue: false,
     },
