@@ -1,4 +1,5 @@
 import data from "../../data/index.json";
+import {useTranslation} from 'react-i18next';
 
 // Estilo para remover o sublinhado do link de e-mail
 const emailLinkStyle = {
@@ -7,11 +8,12 @@ const emailLinkStyle = {
 };
 
 export default function ContactMe() {
+  const {t} = useTranslation();
   return (
     <section className="portfolio--section" id="ContactMe">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-        <h1 className="skills-section--heading">Contato</h1>
+        <h1 className="skills-section--heading">{t('Contato')}</h1>
         </div>
       </div>
       <div className="portfolio--section--container">

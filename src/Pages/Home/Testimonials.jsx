@@ -1,4 +1,5 @@
 import data from "../../data/index.json";
+import {useTranslation} from 'react-i18next';
 
 import React, { useEffect, useState } from 'react';
 import CustomCard from "./CustomCard";
@@ -6,11 +7,13 @@ import { Container, Grid, Box } from '@mui/material';
 
 
 export default function Testimonial() {
+  const {t} = useTranslation();
+
   return (
     <section className="testimonial--section" id="students">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <h2 className="skills-section--heading">Alunos de Iniciação Científica e Tecnológica</h2>
+          <h2 className="skills-section--heading">{t('t1_ic')}</h2>
         </div>
       </div>
       <div style={{}}>
@@ -24,7 +27,7 @@ export default function Testimonial() {
           </Grid>
         </Container>
       </div>
-      <h2 className="skills-section--heading">Alunos de Trabalho de Conclusão de Curso</h2>
+      <h2 className="skills-section--heading">{t('t1_tcc')}</h2>
       <div style={{}}>
         <Container maxWidth={false}>
           <Grid container spacing={3}>
@@ -37,7 +40,7 @@ export default function Testimonial() {
         </Container>
       </div>
 
-      <h2 className="skills-section--heading">Alunos de Pós-Graduação </h2>
+      <h2 className="skills-section--heading">{t('t1_pos')}</h2>
       <div style={{}}>
         <Container maxWidth={false}>
           <Grid container spacing={3}>

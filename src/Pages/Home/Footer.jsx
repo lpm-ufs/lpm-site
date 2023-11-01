@@ -35,7 +35,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/lpm.ufs/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
