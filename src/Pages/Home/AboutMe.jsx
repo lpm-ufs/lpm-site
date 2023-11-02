@@ -12,7 +12,7 @@ export default function AboutMe() {
             {t('t1_sobre')}
           </p>
           <p className="hero--section-description">
-          {t('t1_sobre')}</p>
+          {t('t2_sobre')}</p>
         </div>
       </div>
       <div className="hero--section--img">
