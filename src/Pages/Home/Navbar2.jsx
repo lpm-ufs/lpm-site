@@ -1,161 +1,173 @@
-import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
-import Menu from '@mui/material/Menu';
-import MenuIcon from '@mui/icons-material/Menu';
-import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
-import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
-import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
+import { useState, useEffect } from "react";
+import { Link } from "react-scroll";
+import { useTranslation } from 'react-i18next';
+import { changeLanguage } from "i18next";
 
-const pages = ['Inicio', 'Equipamentos', 'Projetos de Pesquisa', 'Projetos de Extensão', 'Alunos', 'Publicações'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+function Navbar() {
+  const { t } = useTranslation();
 
-function Navbar2() {
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
-
-  const handleOpenNavMenu = (event) => {
-    setAnchorElNav(event.currentTarget);
-  };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
+  const changeToEnglish = () => {
+    changeLanguage("en-US");
   };
 
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
+  const changeToPortuguese = () => {
+    changeLanguage("pt-BR");
   };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
+  const [navActive, setNavActive] = useState(false);
+
+  const toggleNav = () => {
+    setNavActive(!navActive);
   };
+
+  const closeMenu = () => {
+    setNavActive(false);
+  };
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 500) {
+        closeMenu;
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (window.innerWidth <= 1200) {
+      closeMenu;
+    }
+  }, []);
 
   return (
-    <AppBar position="fixed" sx={{ backgroundColor: 'white' }}>
-      <Container maxWidth="xl">
-        <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
-          <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="#app-bar-with-responsive-menu"
-            className="navbar--content"
-
-            sx={{
-              mr: 2,
-              display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'black',  // Defina a cor do texto como preta
-              textDecoration: 'none',
-            }}
-          >
-            LOGO
-          </Typography>
+    <nav className={`navbar ${navActive ? "active" : ""}`}>
+      <div>
+        <img src="./img/logo3.png" alt="Logoipsum" height="40" />
+      </div>
 
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-            <IconButton
-              size="large"
-              aria-label="account of current user"
-              aria-controls="menu-appbar"
-              aria-haspopup="true"
-              onClick={handleOpenNavMenu}
-              color="black"
+      <a
+        className={`nav__hamburger ${navActive ? "active" : ""}`}
+        onClick={toggleNav}
+      >
+        <span className="nav__hamburger__line"></span>
+        <span className="nav__hamburger__line"></span>
+        <span className="nav__hamburger__line"></span>
+      </a>
+      <div className={`navbar--items ${navActive ? "active" : ""}`}>
+        <ul>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="AboutMe"
+              className="navbar--content"
             >
-              <MenuIcon />
-            </IconButton>
-            <Menu
-              id="menu-appbar"
-              anchorEl={anchorElNav}
-              anchorOrigin={{
-                vertical: 'bottom',
-                horizontal: 'left',
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'left',
-              }}
-              open={Boolean(anchorElNav)}
-              onClose={handleCloseNavMenu}
-              sx={{
-                display: { xs: 'block', md: 'none' },
-              }}
-            >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography className="navbar--content" textAlign="center" >{page}</Typography>
-                </MenuItem>
-              ))}
-            </Menu>
-          </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href="#app-bar-with-responsive-menu"
-            sx={{
-              mr: 2,
-              display: { xs: 'flex', md: 'none' },
-              flexGrow: 1,
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-          >
-            LOGO
-          </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'black', display: 'block' }}
-              >
-                {page}
-              </Button>
-            ))}
-          </Box>
+              {t('Inicio')}
+            </Link>
+          </li>
 
-          <Box sx={{ flexGrow: 0 }}>
-
-            <Menu
-              sx={{ mt: '45px' }}
-              id="menu-appbar"
-              anchorEl={anchorElUser}
-              anchorOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              open={Boolean(anchorElUser)}
-              onClose={handleCloseUserMenu}
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="AboutMe2"
+              className="navbar--content"
             >
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">{setting}</Typography>
-                </MenuItem>
-              ))}
-            </Menu>
-          </Box>
-        </Toolbar>
-      </Container>
-    </AppBar>
+              {t('Equipamentos')}
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="MyPortfolio"
+              className="navbar--content"
+            >
+              {t('Projetos de Pesquisa')}
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="AboutMe3"
+              className="navbar--content"
+            >
+              {t('Projetos de Extensão')}
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="students"
+              className="navbar--content"
+            >
+              {t('Alunos')}
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="Publish"
+              className="navbar--content"
+            >
+              {t('Publicações')}
+            </Link>
+          </li>
+
+
+        </ul>
+      </div>
+
+      <Link
+        activeClass="navbar--active-content"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+        to="ContactMe"
+        className=""
+      >
+        {t('Contato')}
+      </Link>
+
+    </nav>
   );
 }
-export default Navbar2;
+
+export default Navbar;
