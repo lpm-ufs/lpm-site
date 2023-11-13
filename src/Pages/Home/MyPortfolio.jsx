@@ -1,8 +1,10 @@
-import data from "../../data/index.json";
 import {useTranslation} from 'react-i18next';
 
 export default function MyPortfolio() {
-  const {t} = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
+
+  const data = require(`../../data/${currentLanguage}.json`);
 
   return (
     <section className="portfolio--section" id="MyPortfolio">

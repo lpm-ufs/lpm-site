@@ -2,10 +2,13 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import CustomCard from './CustomCard';
 import { Container, Grid, Box, Typography } from '@mui/material';
-import data from '../../data/index.json';
 
 export default function Testimonial() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
+  const data = require(`../../data/${currentLanguage}.json`);
+
+
 
   return (
     <section className="" id="ContactMe">

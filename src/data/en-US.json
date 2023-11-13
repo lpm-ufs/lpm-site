@@ -25,7 +25,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
       }
     ],
-    "projects": [
+    "projeto": [
       {
         "id": "1",
         "src": "./img/fotogrametria_drone.png",
