@@ -1,4 +1,3 @@
-import data from "../../data/index.json";
 import { useTranslation } from 'react-i18next';
 
 import React, { useEffect, useState } from 'react';
@@ -7,7 +6,10 @@ import { Container, Grid, Box } from '@mui/material';
 
 
 export default function Testimonial() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
+
+  const data = require(`../../data/${currentLanguage}.json`);
 
   return (
     <section className="" id="students">

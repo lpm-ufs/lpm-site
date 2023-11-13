@@ -1,0 +1,216 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "UI & UX Design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "Webflow Development",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    }
+  ],
+  "projeto": [
+    {
+      "id": "1",
+      "src": "./img/fotogrametria_drone.png",
+      "title": "Fotogrametria Aérea por Drones",
+      "description": "O projeto é muito importante, ele foi projetado para projetar uma visão projetista acerca do projetivismo",
+      "link": "Leia mais"
+    },
+    {
+      "id": "2",
+      "src": "./img/embarcados_drones.png",
+      "title": "Inteligência artificial embarcadas em drones",
+      "description": "O projeto é muito importante, ele foi projetado para projetar uma visão projetista acerca do projetivismo",
+      "link": "Leia mais"
+    },
+    {
+      "id": "3",
+      "src": "./img/deteccao.png",
+      "title": "Detecção de falhas em infraestruturas de óleo e gás",
+      "description": "O projeto é muito importante, ele foi projetado para projetar uma visão projetista acerca do projetivismo",
+      "link": "Leia mais"
+    }, 
+    {
+      "id": "4",
+      "src": "./img/monitoramento_saude.png",
+      "title": "Monitoramento da Saúde Estrutural (SHM)",
+      "description": "O projeto é muito importante, ele foi projetado para projetar uma visão projetista acerca do projetivismo",
+      "link": "Leia mais"
+    },
+    {
+      "id": "5",
+      "src": "./img/iot.png",
+      "title": "Internet das Coisas (IoT)",
+      "description": "O projeto é muito importante, ele foi projetado para projetar uma visão projetista acerca do projetivismo",
+      "link": "Leia mais"
+    },
+    {
+      "id": "6",
+      "src": "./img/enxame_drones.png",
+      "title": "Enxame de Drones",
+      "description": "O projeto é muito importante, ele foi projetado para projetar uma visão projetista acerca do projetivismo",
+      "link": "Leia mais"
+    },
+    {
+      "id": "7",
+      "src": "./img/renovaveis.png",
+      "title": "Energias Renováveis",
+      "description": "O projeto é muito importante, ele foi projetado para projetar uma visão projetista acerca do projetivismo",
+      "link": "Leia mais"
+    },
+    {
+      "id": "8",
+      "src": "",
+      "title": "",
+      "description": "",
+      "link": ""
+    }
+  ],
+  "student_ci": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/mascarenhas.jpg",
+      "description": "Monitoramento Estrutural de Torre de Transmissão de Energia por Internet das Coisas",
+      "author_name": "José Mascarenhas Lima Neto",
+      "author_designation": "Engenharia Elétrica"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/daniel.jpg",
+      "description": "Desenvolvimento de Projeto Mecânico e Estrutural de uma Torre de Transmissão de Energia Aplicada para Monitoramento de Saúde Estrutural",
+      "author_name": "Daniel de Souza Santos",
+      "author_designation": "Engenharia de Mecânica"
+    },
+    {
+      "id": "4",
+      "count": "5",
+      "src": "./img/yuming.png",
+      "description": "Monitoramento online de estruturas por inteligência artificial.",
+      "author_name": "Yuming Ruan",
+      "author_designation": "Engenharia de Computação"
+    }, 
+    {
+      "id": "5",
+      "count": "5",
+      "src": "./img/tiago.jpg",
+      "description": "Sistema ARP de baixo custo para inspeção aérea por fotogrametria.",
+      "author_name": "Tiago Santana Silva",
+      "author_designation": "Engenharia de Elétrica"
+    },
+    {
+      "id": "6",
+      "count": "5",
+      "src": "./img/rafael.png",
+      "description": "Sistema ARP de baixo custo para inspeção aérea para detecção de falhas em infraestruturas.",
+      "author_name": "Rafael Ferrari Lobato",
+      "author_designation": "Engenharia Eletrônica"
+    },
+    {
+      "id": "7",
+      "count": "5",
+      "src": "./img/sem_foto.png",
+      "description": "Sistema ARP de baixo custo para inspeção aérea e previsão de desastres por Inteligência Artificial.",
+      "author_name": "Matheus Melo Medeiros",
+      "author_designation": "Engenharia Mecânica"
+    },
+    {
+      "id": "8",
+      "count": "5",
+      "src": "./img/gustavo.png",
+      "description": "Uso de enxame de drones para aplicações em inspeções do setor de óleo e gás.",
+      "author_name": "Gustavo Oliveira Moura",
+      "author_designation": "Engenharia de Computação"
+    },
+    {
+      "id": "9",
+      "count": "5",
+      "src": "./img/sem_foto.png",
+      "description": "Novos Conceitos de Turbinas Eólicas Verticais sem Hélices na Geração de Energia Limpa e Silenciosa.",
+      "author_name": "Gutemberg Souza Santos",
+      "author_designation": "Engenharia Mecânica"
+    },
+    {
+      "id": "9",
+      "count": "5",
+      "src": "./img/eu.png",
+      "description": "Monitoramento online de estruturas por gêmeos digitais e inteligência Artificial.",
+      "author_name": "José Dhonatas Alves Sales",
+      "author_designation": "Engenharia de Computação"
+    }
+
+
+  ],
+  "testimonial2": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/prof_alexandre.png",
+      "description": "Doutorado em Engenharia Mecânica pela EESC-USP, Mestrado em Engenharia Mecânica pelo ITA, e graduação em Engenharia Mecatrônica pela EESC-USP.",
+      "author_name": "Alexandre Carlos Rodrigues Ramos ",
+      "author_designation": "Engenharia de Computação",
+      "email": "alexandre.ramos@academico.ufs.br"
+    }
+  ],
+
+  "students_tcc": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/vinicius_amorim.jpg",
+      "description": "Desenvolvimento de um Manipulador Robótico com seis graus de Liberdade.",
+      "author_name": "Vinicius Amorim Santos",
+      "author_designation": "Engenharia Mecânica",
+      "email": "alexandre.ramos@academico.ufs.br"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/sem_foto.png",
+      "description": "Análise Estática e de Fadiga de um Semi Eixo de veículo De Competição Fórmula Sae utilizando o Método Dos Elementos Finitos.",
+      "author_name": "Isaac Marvio Lima Santiago",
+      "author_designation": "Engenharia Mecânica",
+      "email": "alexandre.ramos@academico.ufs.br"
+    }
+  ],
+
+  "students_pos": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/italo.jpg",
+      "description": "Metamateriais Periódicos.",
+      "author_name": "Italo Matos Araújo ",
+      "author_designation": "Engenharia Elétrica",
+      "email": "alexandre.ramos@academico.ufs.br"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/fabricia.png",
+      "description": "Enxame de drones                                                            ",
+      "author_name": "Fabricia Karollyne Santos Resende",
+      "author_designation": "Engenharia Elétrica",
+      "email": "alexandre.ramos@academico.ufs.br"
+    }
+  ]
+
+}
