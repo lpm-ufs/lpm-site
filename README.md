@@ -27,8 +27,6 @@ npm install
 ```
 4. Após a conclusão da instalação das dependências, execute o seguinte comando para iniciar o aplicativo:
 ```shell script
-npm start
+npm start 
 ```
 5. Aguarde até que o aplicativo seja compilado e iniciado. Após a conclusão, você poderá acessá-lo no seu navegador em http://localhost:3000.
-
-
