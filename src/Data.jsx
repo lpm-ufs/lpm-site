@@ -58,8 +58,8 @@ export const links = [
   },
 
   {
-    name: 'Contact',
-    path: 'contact',
+    name: 'Contato',
+    path: 'contato',
   },
 ];
 

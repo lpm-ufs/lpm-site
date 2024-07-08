@@ -2,13 +2,13 @@ import axios from 'axios'
 import React, { useState } from 'react'
 import { FaRegAddressBook, FaRegEnvelope, FaRegUser, FaRegMap } from 'react-icons/fa'
 import profileImg from '../../assets/pessoal/alexandre.png'
-import './contact.css'
+import './contato.css'
 
 const Contact = () => {
 
 
     return (
-        <section className="contact section" id="contact">
+        <section className="contato section" id="contato">
             <h2 className="section__title text-cs">Contato</h2>
             <p className="section__subtitle">
                 {/*Let's <span>Talk About Ideas</span>*/}

@@ -39,7 +39,7 @@ const Publications = () => {
             </div>
 
             <div className="section__bg-wrapper">
-                <span className="bg__title">Publicações</span>
+                <span className="bg__title"></span>
             </div>
         </section>
     )
