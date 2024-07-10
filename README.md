@@ -13,6 +13,7 @@ This web page was made with the following technologies:
 - React Scroll
 - Swiper
 
+
 ## Pages
 This web page contains 9 sections: **Sobre**, **Equipamentos**, **Publicacoes**, **Alunos**, **Resume**, **Projetos**, **Pricing**, **Blog** and **Contact**.
 
