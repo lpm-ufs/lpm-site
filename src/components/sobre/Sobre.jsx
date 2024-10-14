@@ -44,7 +44,7 @@ const Sobre = () => {
                     </div>
 
                     <p className="home__text">
-                        O Laboratório de Projetos Mecânicos do Departamento de Engenharia Mecânica da Universidade Federal de Sergipe (UFS), parte do Instituo de Pesquisas sobre Desastres (IPD), se dedica ao ensino, pesquisa e extensão em várias áreas da engenharia. Atendendo diariamente alunos, o laboratório desenvolve pesquisas em aeronaves remotamente pilotadas, enxames de drones, metamateriais, visão computacional, Structural Health Monitoring, metrologia, inteligência artificial, fotogrametria e energias renováveis. Também realiza projetos de extensão, como oficinas de minifoguetes, astronomia, e equipes de foguetes e cubesats (Zenith).
+                        O Laboratório de Projetos Mecânicos do Departamento de Engenharia Mecânica da Universidade Federal de Sergipe (UFS), parte do Instituto de Pesquisas sobre Desastres (IPD), se dedica ao ensino, pesquisa e extensão em várias áreas da engenharia. Atendendo diariamente alunos, o laboratório desenvolve pesquisas em aeronaves remotamente pilotadas, enxames de drones, metamateriais, visão computacional, Structural Health Monitoring, metrologia, inteligência artificial, fotogrametria e energias renováveis. Também realiza projetos de extensão, como oficinas de minifoguetes, astronomia, e equipes de foguetes e cubesats (Zenith).
                     </p>
 
                     <div className="home__socials">
