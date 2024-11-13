@@ -1,14 +1,17 @@
-import React from 'react'
-import profileImg from '../../assets/lpm-icon.png'
-import shapeOne from '../../assets/shape-1.png'
-import shapeTwo from '../../assets/shape-2.png'
+import React from 'react';
+import profileImg from '../../assets/lpm-icon.png';
+import shapeOne from '../../assets/shape-1.png';
+import shapeTwo from '../../assets/shape-2.png';
 
 import { MdOutlineEmail } from "react-icons/md";
+import { FaInstagram } from 'react-icons/fa';
+import { useTranslation } from 'react-i18next';
 
-import { FaInstagram, FaDribbble } from 'react-icons/fa'
-import './sobre.css'
+import './sobre.css';
 
 const Sobre = () => {
+    const { t } = useTranslation(); // Hook de tradução
+
     return (
         <section className="sobre" id="sobre">
             <div className="home__wrapper">
@@ -16,9 +19,8 @@ const Sobre = () => {
                     <p className="home__subtitle text-cs">
                     </p>
                     <h1 className="home__title text-cs">
-                        <span>LPM</span> Sobre
+                        <span>LPM</span> {t('title')} {/* Texto traduzido para o título */}
                     </h1>
-
 
                     <div className="home__img-wrapper">
                         <div className="home__banner">
@@ -27,14 +29,13 @@ const Sobre = () => {
 
                         <p className="home__data home__data-one">
                             <span className="text-sm text-cs">
-                               Contribuidor em inovações <span>na ufs</span>
+                                {t('subtitle')}
                             </span>
                         </p>
 
                         <p className="home__data home__data-two">
-
                             <span className="text-sm text-cs">
-                                <span>Pesquisa</span> e extensão
+                                {t('researchAndExtension')}
                             </span>
                         </p>
 
@@ -44,7 +45,7 @@ const Sobre = () => {
                     </div>
 
                     <p className="home__text">
-                        O Laboratório de Projetos Mecânicos do Departamento de Engenharia Mecânica da Universidade Federal de Sergipe (UFS), parte do Instituto de Pesquisas sobre Desastres (IPD), se dedica ao ensino, pesquisa e extensão em várias áreas da engenharia. Atendendo diariamente alunos, o laboratório desenvolve pesquisas em aeronaves remotamente pilotadas, enxames de drones, metamateriais, visão computacional, Structural Health Monitoring, metrologia, inteligência artificial, fotogrametria e energias renováveis. Também realiza projetos de extensão, como oficinas de minifoguetes, astronomia, e equipes de foguetes e cubesats (Zenith).
+                        {t('description')} {/* Texto traduzido para a descrição */}
                     </p>
 
                     <div className="home__socials">
@@ -55,10 +56,10 @@ const Sobre = () => {
                         <a href="mailto:alexandre.ramos@academico.ufs.br" target="_blank" rel="noopener noreferrer" className="home__social-link">
                             <MdOutlineEmail />
                         </a>
-
                     </div>
 
                     <div className="home__btns">
+                        {/* Aqui você pode adicionar botões ou outras seções conforme necessário */}
                     </div>
                 </div>
 
@@ -69,12 +70,11 @@ const Sobre = () => {
 
             <div className="section__bg-wrapper">
                 <span className="bg__title">
-
-
+                    {/* Espaço para outros elementos de fundo, caso queira adicionar */}
                 </span>
             </div>
         </section>
-    )
+    );
 }
 
-export default Sobre
+export default Sobre;

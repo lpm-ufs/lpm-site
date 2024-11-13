@@ -5,10 +5,12 @@ import { icPT } from '../../Data'
 import './alunos.css'
 import { AnimatePresence } from 'framer-motion'
 import shapeOne from '../../assets/shape-1.png'
+import { useTranslation } from 'react-i18next'
 
 const allNavList = ['todos', ...new Set(icPT.map((project) => project.category))]
 
 const Alunos = () => {
+    const { t } = useTranslation()  // Usando o hook de tradução
     const [projectItems, setMenuItems] = useState(icPT)
     const [navList, setCategories] = useState(allNavList)
 
@@ -25,9 +27,8 @@ const Alunos = () => {
 
     return (
         <section className="alunos section" id="alunos">
-            <h2 className="section__title text-cs">Alunos</h2>
+            <h2 className="section__title text-cs">{t('studentsTitle')}</h2>
             <p className="section__subtitle">
-                {/*My <span>Cases</span>*/}
             </p>
 
             <List list={navList} filterItems={filterItems} />

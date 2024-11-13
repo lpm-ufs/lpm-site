@@ -272,6 +272,110 @@ export const equipamentosPT = [
 ];
 
 
+export const equipamentosEN = [
+  {
+    id: 1,
+    img: computador,
+    name: 'Computing and Data Processing',
+    description: 'High-capacity computers with 32 GB of RAM, ideal for intensive processing and demanding applications.'
+  },
+  {
+    id: 2,
+    img: lorawan,
+    name: 'Communication and IoT',
+    description: 'LoRaWAN transmitters and 915 MHz gateways for long-range communication in IoT networks.'
+  },
+  {
+    id: 3,
+    img: arduino,
+    name: 'Basic Electronic Systems',
+    description: 'Development boards such as ESP32, Arduino, and Raspberry Pi for prototyping and electronic project development.'
+  },
+  {
+    id: 4,
+    img: drone,
+    name: 'Drones',
+    description: 'Remotely piloted aircraft (drones) for various uses, from aerial photography to industrial inspections.'
+  },
+  {
+    id: 5,
+    img: impressora3d,
+    name: '3D Printer',
+    description: 'Equipment for three-dimensional printing, allowing the creation of prototypes and parts in various materials.'
+  },
+  {
+    id: 6,
+    img: osciloscopio,
+    name: 'Oscilloscope',
+    description: 'Instrument for measuring and visualizing electrical signals, essential for testing and development in electronics.'
+  },
+  {
+    id: 7,
+    img: maquinacoordenadas,
+    name: 'Coordinate Measuring Machines',
+    description: 'Coordinate measuring machines, articulated arms, and scanners for precise measurements in engineering and manufacturing.'
+  },
+  {
+    id: 8,
+    img: geradorfuncoes,
+    name: 'Function Generator',
+    description: 'Device for generating electrical signals of different waveforms, used in testing and circuit development.'
+  }
+];
+
+
+export const equipamentosFR = [
+  {
+    id: 1,
+    img: computador,
+    name: 'Informatique et Traitement de Données',
+    description: 'Ordinateurs à haute capacité avec 32 Go de RAM, idéaux pour le traitement intensif et les applications exigeantes.'
+  },
+  {
+    id: 2,
+    img: lorawan,
+    name: 'Communication et IoT',
+    description: 'Émetteurs LoRaWAN et passerelles 915 MHz pour la communication longue portée dans les réseaux IoT.'
+  },
+  {
+    id: 3,
+    img: arduino,
+    name: 'Systèmes Électroniques de Base',
+    description: 'Cartes de développement comme ESP32, Arduino et Raspberry Pi pour le prototypage et le développement de projets électroniques.'
+  },
+  {
+    id: 4,
+    img: drone,
+    name: 'Drones',
+    description: 'Aéronefs télépilotés (drones) pour divers usages, de la photographie aérienne aux inspections industrielles.'
+  },
+  {
+    id: 5,
+    img: impressora3d,
+    name: 'Imprimante 3D',
+    description: 'Équipements pour l’impression tridimensionnelle, permettant la création de prototypes et de pièces en divers matériaux.'
+  },
+  {
+    id: 6,
+    img: osciloscopio,
+    name: 'Oscilloscope',
+    description: 'Instrument pour mesurer et visualiser les signaux électriques, essentiel pour les tests et le développement en électronique.'
+  },
+  {
+    id: 7,
+    img: maquinacoordenadas,
+    name: 'Machines à Mesurer les Coordonnées',
+    description: 'Machines à mesurer les coordonnées, bras articulés et scanners pour des mesures précises en ingénierie et fabrication.'
+  },
+  {
+    id: 8,
+    img: geradorfuncoes,
+    name: 'Générateur de Fonctions',
+    description: 'Dispositif pour générer des signaux électriques de différentes formes d’onde, utilisé pour les tests et le développement de circuits.'
+  }
+];
+
+
 export const icPT =[
   {
     id: "1",
