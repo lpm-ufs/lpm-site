@@ -1015,3 +1015,123 @@ export const projetosPT = [
     category: 'Extensão'
   }
 ];
+
+
+export const projetosEN = [
+  {
+    id: 1,
+    img: fotogrametria_drone,
+    name: 'Aerial Photogrammetry with Drones',
+    description: 'Use of drones to conduct detailed and accurate photogrammetric surveys, aiming to improve cartography and terrain analysis.',
+    category: 'Research'
+  },
+  {
+    id: 2,
+    img: embarcados_drones,
+    name: 'Artificial Intelligence Embedded in Drones',
+    description: 'Development of artificial intelligence systems for drones, enhancing autonomous decision-making and operational efficiency.',
+    category: 'Research'
+  },
+  {
+    id: 3,
+    img: enxame_drones,
+    name: 'Drone Swarm',
+    description: 'Study of the coordination and control of multiple drones working together, enabling more complex and effective operations.',
+    category: 'Research'
+  },
+  {
+    id: 4,
+    img: iot,
+    name: 'Internet of Things (IoT)',
+    description: 'Exploring the integration of internet-connected devices to enhance communication and automation across various sectors.',
+    category: 'Research'
+  },
+  {
+    id: 5,
+    img: renovaveis,
+    name: 'Renewable Energy',
+    description: 'Research focused on the development and optimization of renewable energy technologies to promote sustainability and reduce dependency on fossil fuels.',
+    category: 'Research'
+  },
+  {
+    id: 6,
+    img: deteccao,
+    name: 'Fault Detection in Oil and Gas Infrastructure',
+    description: 'Implementation of advanced technologies to identify and predict failures in critical oil and gas infrastructure, enhancing safety and efficiency.',
+    category: 'Research'
+  },
+  {
+    id: 7,
+    img: monitoramento_saude,
+    name: 'Structural Health Monitoring (SHM)',
+    description: 'Development of systems to monitor the integrity of structures, ensuring greater safety and prolonging the lifespan of buildings and infrastructure.',
+    category: 'Research'
+  },
+  {
+    id: 8,
+    img: zenith,
+    name: 'Zenith Rocketry',
+    description: 'Team dedicated to building rockets and cubesats, promoting mini-rocket workshops and astronomy since 2022.',
+    category: 'Extension'
+  }
+];
+
+
+export const projetosFR = [
+  {
+    id: 1,
+    img: fotogrametria_drone,
+    name: 'Photogrammétrie Aérienne par Drones',
+    description: 'Utilisation de drones pour réaliser des levés photogrammétriques détaillés et précis, visant à améliorer la cartographie et l\'analyse du terrain.',
+    category: 'Recherche'
+  },
+  {
+    id: 2,
+    img: embarcados_drones,
+    name: 'Intelligence Artificielle Embarquée dans les Drones',
+    description: 'Développement de systèmes d\'intelligence artificielle pour drones, améliorant la prise de décision autonome et l\'efficacité opérationnelle.',
+    category: 'Recherche'
+  },
+  {
+    id: 3,
+    img: enxame_drones,
+    name: 'Essaim de Drones',
+    description: 'Étude de la coordination et du contrôle de plusieurs drones travaillant ensemble, permettant des opérations plus complexes et efficaces.',
+    category: 'Recherche'
+  },
+  {
+    id: 4,
+    img: iot,
+    name: 'Internet des Objets (IoT)',
+    description: 'Exploration de l\'intégration d\'appareils connectés à Internet pour améliorer la communication et l\'automatisation dans divers secteurs.',
+    category: 'Recherche'
+  },
+  {
+    id: 5,
+    img: renovaveis,
+    name: 'Énergies Renouvelables',
+    description: 'Recherche axée sur le développement et l\'optimisation des technologies d\'énergie renouvelable pour promouvoir la durabilité et réduire la dépendance aux combustibles fossiles.',
+    category: 'Recherche'
+  },
+  {
+    id: 6,
+    img: deteccao,
+    name: 'Détection des Pannes dans les Infrastructures Pétrolières et Gazières',
+    description: 'Mise en œuvre de technologies avancées pour identifier et prédire les pannes dans les infrastructures critiques de pétrole et de gaz, améliorant la sécurité et l\'efficacité.',
+    category: 'Recherche'
+  },
+  {
+    id: 7,
+    img: monitoramento_saude,
+    name: 'Surveillance de la Santé des Structures (SHM)',
+    description: 'Développement de systèmes pour surveiller l\'intégrité des structures, garantissant une plus grande sécurité et prolongeant la durée de vie des bâtiments et infrastructures.',
+    category: 'Recherche'
+  },
+  {
+    id: 8,
+    img: zenith,
+    name: 'Zenith Rocketry',
+    description: 'Équipe dédiée à la construction de fusées et de cubesats, organisant des ateliers de mini-fusées et d\'astronomie depuis 2022.',
+    category: 'Extension'
+  }
+];

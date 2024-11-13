@@ -26,7 +26,9 @@ i18n
           contactBio: "Doutorado em Engenharia Mecânica pela EESC-USP, Mestrado em Engenharia Mecânica pelo ITA, e graduação em Engenharia Mecatrônica pela EESC-USP.",
 
           studentsTitle: "Alunos",
-          publicationsTitle: "Publicações"
+          publicationsTitle: "Publicações",
+          projectsTitle: "Projetos",
+          all: "Todos"
 
         },
       },
@@ -50,7 +52,9 @@ i18n
           contactName: "Alexandre Carlos Rodrigues Ramos",
           contactBio: "PhD in Mechanical Engineering from EESC-USP, Master's in Mechanical Engineering from ITA, and a degree in Mechatronic Engineering from EESC-USP.",
           studentsTitle: "Students",
-          publicationsTitle: "Publications"
+          publicationsTitle: "Publications",
+          projectsTitle: "Projects",
+          all: "All"
 
         },
       },
@@ -75,7 +79,9 @@ i18n
           contactBio: "Doctorat en génie mécanique de l'EESC-USP, maîtrise en génie mécanique de l'ITA et diplôme en génie mécatronique de l'EESC-USP.",
 
           studentsTitle: "Étudiants",
-          publicationsTitle: "Publications"
+          publicationsTitle: "Publications",
+            projectsTitle: "Projets",
+            all: "Tous"
 
 
 
