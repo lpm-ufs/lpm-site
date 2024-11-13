@@ -34,7 +34,7 @@ import monitoramento_saude from './assets/projetos/monitoramento_saude.png';
 import renovaveis from './assets/projetos/renovaveis.png';
 import zenith from './assets/projetos/zenith.png';
 
-export const links = [
+export const linksPT = [
   {
     name: 'Sobre',
     path: 'sobre',
@@ -62,6 +62,65 @@ export const links = [
     path: 'contato',
   },
 ];
+
+
+// linksEN.js
+export const linksEN = [
+  {
+    name: 'About',
+    path: 'sobre',
+  },
+  {
+    name: 'Equipment',
+    path: 'equipamentos',
+  },
+  {
+    name: 'Publications',
+    path: 'publicacoes',
+  },
+  {
+    name: 'Students',
+    path: 'alunos',
+  },
+  {
+    name: 'Projects',
+    path: 'projetos',
+  },
+  {
+    name: 'Contact',
+    path: 'contato',
+  },
+];
+
+
+// linksFR.js
+export const linksFR = [
+  {
+    name: 'À propos',
+    path: 'sobre',
+  },
+  {
+    name: 'Équipements',
+    path: 'equipamentos',
+  },
+  {
+    name: 'Publications',
+    path: 'publicacoes',
+  },
+  {
+    name: 'Étudiants',
+    path: 'alunos',
+  },
+  {
+    name: 'Projets',
+    path: 'projetos',
+  },
+  {
+    name: 'Contact',
+    path: 'contato',
+  },
+];
+
 
 export const publicacoes = [
   {

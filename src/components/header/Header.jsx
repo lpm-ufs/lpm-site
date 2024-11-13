@@ -1,64 +1,64 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import { MdOutlineEmail } from "react-icons/md";
-import { FaInstagram } from 'react-icons/fa'
-import { links } from '../../Data'
-import { BsSun, BsMoon } from 'react-icons/bs'
-import './header.css'
-import { Link } from 'react-scroll'
-import { animateScroll } from 'react-scroll'
-import shapeOne from '../../assets/shape-1.png'
-import usa from '../../assets/bandeiras/usa.svg'
-import france from '../../assets/bandeiras/france.svg'
-import brazil from '../../assets/bandeiras/brazil.svg'
-import { useTranslation } from 'react-i18next'
+import { FaInstagram } from 'react-icons/fa';
+import { linksPT, linksEN, linksFR } from '../../Data'; // Importa os dados de links para cada idioma
+import { BsSun, BsMoon } from 'react-icons/bs';
+import './header.css';
+import { Link } from 'react-scroll';
+import { animateScroll } from 'react-scroll';
+import shapeOne from '../../assets/shape-1.png';
+import usa from '../../assets/bandeiras/usa.svg';
+import france from '../../assets/bandeiras/france.svg';
+import brazil from '../../assets/bandeiras/brazil.svg';
+import { useTranslation } from 'react-i18next';
 
 const getStorageTheme = () => {
-    let theme = 'light-theme' 
-    /* (localStorage.getItem('theme')) {
-        theme = localStorage.getItem('theme')
-    }*/
-    return theme
+    let theme = 'light-theme'; 
+    return theme;
 }
 
 const Header = () => {
-    const { i18n } = useTranslation()
-    const [showMenu, setShowMenu] = useState(false)
-    const [scrollNav, setScrollNav] = useState(false)
-    const [theme, setTheme] = useState(getStorageTheme()) // Define o tema a partir do localStorage, ou 'light-theme' como padrão
+    const { i18n } = useTranslation();
+    const [showMenu, setShowMenu] = useState(false);
+    const [scrollNav, setScrollNav] = useState(false);
+    const [theme, setTheme] = useState(getStorageTheme()); 
+
+    // Seleciona os links de navegação conforme o idioma atual
+    const linksData = i18n.language === 'fr' ? linksFR
+                    : i18n.language === 'en' ? linksEN
+                    : linksPT; // Padrão para português
 
     const scrollTop = () => {
-        animateScroll.scrollToTop()
-    }
+        animateScroll.scrollToTop();
+    };
 
     const changeNav = () => {
-        setScrollNav(window.scrollY >= 80)
-    }
+        setScrollNav(window.scrollY >= 80);
+    };
 
     const toggleTheme = () => {
-        // Alterna entre light e dark theme
-        const newTheme = theme === 'light-theme' ? 'dark-theme' : 'light-theme'
-        setTheme(newTheme)
-    }
+        const newTheme = theme === 'light-theme' ? 'dark-theme' : 'light-theme';
+        setTheme(newTheme);
+    };
 
     const changeLanguage = (lang) => {
-        i18n.changeLanguage(lang)
-    }
+        i18n.changeLanguage(lang);
+    };
 
     useEffect(() => {
-        window.addEventListener('scroll', changeNav)
-        return () => window.removeEventListener('scroll', changeNav)
-    }, [])
+        window.addEventListener('scroll', changeNav);
+        return () => window.removeEventListener('scroll', changeNav);
+    }, []);
 
     useEffect(() => {
-        document.body.classList.toggle('no-scroll', showMenu)
-    }, [showMenu])
+        document.body.classList.toggle('no-scroll', showMenu);
+    }, [showMenu]);
 
     useEffect(() => {
-        document.documentElement.className = theme
-        localStorage.setItem('theme', theme) // Armazena a escolha do tema no localStorage
-    }, [theme])
+        document.documentElement.className = theme;
+        localStorage.setItem('theme', theme);
+    }, [theme]);
 
-    // Renderiza as bandeiras com base no idioma atual
     const renderFlags = () => {
         if (i18n.language === 'pt') {
             return (
@@ -66,23 +66,23 @@ const Header = () => {
                     <img src={usa} alt="Inglês" className="flag" onClick={() => changeLanguage('en')} />
                     <img src={france} alt="França" className="flag" onClick={() => changeLanguage('fr')} />
                 </>
-            )
+            );
         } else if (i18n.language === 'en') {
             return (
                 <>
                     <img src={brazil} alt="Português" className="flag" onClick={() => changeLanguage('pt')} />
                     <img src={france} alt="França" className="flag" onClick={() => changeLanguage('fr')} />
                 </>
-            )
+            );
         } else if (i18n.language === 'fr') {
             return (
                 <>
                     <img src={brazil} alt="Português" className="flag" onClick={() => changeLanguage('pt')} />
                     <img src={usa} alt="Inglês" className="flag" onClick={() => changeLanguage('en')} />
                 </>
-            )
+            );
         }
-    }
+    };
 
     return (
         <header className={`${scrollNav ? 'scroll-header' : ''} header`}>
@@ -94,7 +94,7 @@ const Header = () => {
                 <div className={`${showMenu ? 'nav__menu show-menu' : 'nav__menu'}`}>
                     <div className="nav__data">
                         <ul className="nav__list">
-                            {links.map(({ name, path }, index) => (
+                            {linksData.map(({ name, path }, index) => (
                                 <li className="nav__item" key={index}>
                                     <Link
                                         className='nav__link text-cs'
@@ -145,7 +145,7 @@ const Header = () => {
                 </div>
             </nav>
         </header>
-    )
-}
+    );
+};
 
-export default Header
+export default Header;
