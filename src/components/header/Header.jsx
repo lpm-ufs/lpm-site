@@ -8,36 +8,40 @@ import { Link } from 'react-scroll'
 import { animateScroll } from 'react-scroll'
 import shapeOne from '../../assets/shape-1.png'
 import usa from '../../assets/bandeiras/usa.svg'
-import france from '../../assets/bandeiras/france.svg'  // Importando a bandeira da França
+import france from '../../assets/bandeiras/france.svg'
+import brazil from '../../assets/bandeiras/brazil.svg'
+import { useTranslation } from 'react-i18next'
 
-// Função para obter tema armazenado no localStorage
 const getStorageTheme = () => {
-    let theme = 'light-theme'
-    if (localStorage.getItem('theme')) {
+    let theme = 'light-theme' 
+    /* (localStorage.getItem('theme')) {
         theme = localStorage.getItem('theme')
-    }
+    }*/
     return theme
 }
 
 const Header = () => {
+    const { i18n } = useTranslation()
     const [showMenu, setShowMenu] = useState(false)
     const [scrollNav, setScrollNav] = useState(false)
-    const [theme, setTheme] = useState(getStorageTheme())
+    const [theme, setTheme] = useState(getStorageTheme()) // Define o tema a partir do localStorage, ou 'light-theme' como padrão
 
     const scrollTop = () => {
         animateScroll.scrollToTop()
     }
 
     const changeNav = () => {
-        if (window.scrollY >= 80) {
-            setScrollNav(true)
-        } else {
-            setScrollNav(false)
-        }
+        setScrollNav(window.scrollY >= 80)
     }
 
     const toggleTheme = () => {
-        setTheme(theme === 'light-theme' ? 'dark-theme' : 'light-theme')
+        // Alterna entre light e dark theme
+        const newTheme = theme === 'light-theme' ? 'dark-theme' : 'light-theme'
+        setTheme(newTheme)
+    }
+
+    const changeLanguage = (lang) => {
+        i18n.changeLanguage(lang)
     }
 
     useEffect(() => {
@@ -51,8 +55,34 @@ const Header = () => {
 
     useEffect(() => {
         document.documentElement.className = theme
-        localStorage.setItem('theme', theme)
+        localStorage.setItem('theme', theme) // Armazena a escolha do tema no localStorage
     }, [theme])
+
+    // Renderiza as bandeiras com base no idioma atual
+    const renderFlags = () => {
+        if (i18n.language === 'pt') {
+            return (
+                <>
+                    <img src={usa} alt="Inglês" className="flag" onClick={() => changeLanguage('en')} />
+                    <img src={france} alt="França" className="flag" onClick={() => changeLanguage('fr')} />
+                </>
+            )
+        } else if (i18n.language === 'en') {
+            return (
+                <>
+                    <img src={brazil} alt="Português" className="flag" onClick={() => changeLanguage('pt')} />
+                    <img src={france} alt="França" className="flag" onClick={() => changeLanguage('fr')} />
+                </>
+            )
+        } else if (i18n.language === 'fr') {
+            return (
+                <>
+                    <img src={brazil} alt="Português" className="flag" onClick={() => changeLanguage('pt')} />
+                    <img src={usa} alt="Inglês" className="flag" onClick={() => changeLanguage('en')} />
+                </>
+            )
+        }
+    }
 
     return (
         <header className={`${scrollNav ? 'scroll-header' : ''} header`}>
@@ -97,14 +127,12 @@ const Header = () => {
                 </div>
 
                 <div className="nav__btns">
+                    <div className="language__flags">
+                        {renderFlags()}
+                    </div>
+
                     <div className="theme__toggler" onClick={toggleTheme}>
                         {theme === 'light-theme' ? <BsMoon /> : <BsSun />}
-                    </div>
-                    
-                    {/* Seção das bandeiras de idioma */}
-                    <div className="language__flags">
-                        <img src={france} alt="França" className="flag" />
-                        <img src={usa} alt="EUA" className="flag" />
                     </div>
 
                     <div
