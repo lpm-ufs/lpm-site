@@ -650,6 +650,313 @@ export const publicacoesPT = [
   }
 ]
 
+
+export const publicacoesEN = [
+  {
+    id: "CONEM2024-0091",
+    title: "Simultaneous Estimation of Thermal Diffusivity and Thermal Conductivity of Conductive Materials Using Optimization Algorithm",
+    authors: [
+      "Alexandre Magno Pinto Roque",
+      "Giovanna Mobley Scofield Viana",
+      "José Ricardo Ferreira Oliveira",
+      "Jaqueline Dias Altidis",
+      "Alexandre Carlos Rodrigues Ramos",
+      "José Aguiar dos Santos Junior"
+    ],
+    category: "Research Papers"
+  },
+  {
+    id: "CONEM2024-0092",
+    title: "Optimization of a Shell-and-Tube Heat Exchanger Using the NSGA-II Multi-Objective Genetic Algorithm",
+    authors: [
+      "Alexandre Magno Pinto Roque",
+      "Jaqueline Dias Altidis",
+      "Alexandre Carlos Rodrigues Ramos",
+      "José Aguiar dos Santos Junior"
+    ],
+    category: "Research Papers"
+  },
+  {
+    id: "CONEM2024-0084",
+    title: "Use of Drone Swarms for Oil and Gas Sector Inspections",
+    authors: [
+      "Gustavo Oliveira Moura",
+      "José Dhonatas Alves Sales",
+      "Fabrícia Karollyne Santos Resende",
+      "Alexandre Carlos Rodrigues Ramos"
+    ],
+    category: "Research Papers"
+  },
+  {
+    id: "CONEM2024-0164",
+    title: "Development of a Six-Degree-of-Freedom Robotic Manipulator",
+    authors: [
+      "Vinicius Amorim Santos",
+      "Dr. Alexandre Carlos Rodrigues Ramos"
+    ],
+    category: "Research Papers"
+  },
+  {
+    id: "CONEM2024-0059",
+    title: "Development of Digital Twin Software for Structural Monitoring Applications",
+    authors: [
+      "José Dhonatas Alves Sales",
+      "Daniel de Souza Santos",
+      "Rafael Ferrari Lobato Gomes",
+      "Dr. Tarso Vilela Ferreira",
+      "Dr. Alexandre Carlos Rodrigues Ramos"
+    ],
+    category: "Research Papers"
+  },
+  {
+    id: "CONEM2024-0525",
+    title: "Modeling and Dynamic Analysis of a Vertical Wind Turbine Without Blades: Generation by Vibration Induced by Vortices",
+    authors: [
+      "Felipe Lima de Abreu",
+      "Alexandre Carlos Rodrigues Ramos",
+      "Augusto Bornschlegell",
+      "Clivaldo Oliveira",
+      "Douglas Bueno",
+      "Rodrigo Borges Santos"
+    ],
+    category: "Research Papers"
+  },
+  {
+    id: "CONEM2024-0278",
+    title: "Extensometry and Computational Analyses in Drop Test Trials for Remotely Piloted Aircrafts",
+    authors: [
+      "Guilherme Oliveira Fonseca",
+      "Carlos Eduardo Tavares Moreira Leite",
+      "Matheus Melo Medeiros",
+      "Dr. Alexandre Carlos Rodrigues Ramos"
+    ],
+    category: "Research Papers"
+  },
+  {
+    id: "CONEM2024-0033",
+    title: "Low-Cost ARP System for Aerial Inspection and Disaster Prediction Using Artificial Intelligence",
+    authors: [
+      "Matheus Melo Medeiros",
+      "Rafael Ferrari Lobato Gomes",
+      "Dr. Alexandre Carlos Rodrigues Ramos"
+    ],
+    category: "Research Papers"
+  },
+  {
+    id: "CONEM2024-0276",
+    title: "Structural Analysis of a Portable Offshore Unit Using Nonlinear Modeling of Lifting Cables",
+    authors: [
+      "Rodrigo Baldonado Lopes",
+      "Alexandre Carlos Rodrigues Ramos",
+      "Rodrigo Borges Santos",
+      "Sanderson da Conceição",
+      "Augusto Bornschlegell"
+    ],
+    category: "Research Papers"
+  },
+  {
+    id: "CONEM2024-0061",
+    title: "Low-Cost ARP System for Aerial Inspection via Photogrammetry",
+    authors: [
+      "Tiago Santana Silva",
+      "Matheus Melo Medeiros",
+      "Dr. George Victor Rocha Xavier",
+      "Dr. Tarso Vilela Ferreira",
+      "Dr. Alexandre Carlos Rodrigues Ramos"
+    ],
+    category: "Research Papers"
+  },
+  {
+    id: "CONEM2024-0066",
+    title: "Online Monitoring of Structures Through the Internet of Things and Artificial Intelligence",
+    authors: [
+      "Yuming Ruan",
+      "Daniel de Souza Santos",
+      "Rafael Ferrari Lobato Gomes",
+      "Fabrícia Karollyne Santos Resende",
+      "Dr. Alexandre Carlos Rodrigues Ramos"
+    ],
+    category: "Research Papers"
+  },
+  {
+    id: "CONEM2024-1778",
+    title: "Design of a 3D Printer Using Open Source Code and Arduino Microcontroller",
+    authors: [
+      "Nataly Vitória Vieira Peres",
+      "Isabela Barros Soares",
+      "Rafael Ferreira Gregolin",
+      "Alexandre Carlos Rodrigues Ramos"
+    ],
+    category: "Research Papers"
+  },
+  {
+    id: "CONEM2024-0355",
+    title: "Dynamic Analysis of Railway Tracks Using the Spectral Element Method: A Lattice Structures-Based Approach",
+    authors: [
+      "Geder Gabriel Louback Cunha",
+      "Pedro Augusto Beck",
+      "Alexandre Carlos Rodrigues Ramos",
+      "Douglas Bueno",
+      "Rodrigo Borges Santos"
+    ],
+    category: "Research Papers"
+  }
+]
+
+export const publicacoesFR = [
+  {
+    id: "CONEM2024-0091",
+    title: "Estimation simultanée de la diffusivité thermique et de la conductivité thermique des matériaux conducteurs à l'aide d'un algorithme d'optimisation",
+    authors: [
+      "Alexandre Magno Pinto Roque",
+      "Giovanna Mobley Scofield Viana",
+      "José Ricardo Ferreira Oliveira",
+      "Jaqueline Dias Altidis",
+      "Alexandre Carlos Rodrigues Ramos",
+      "José Aguiar dos Santos Junior"
+    ],
+    category: "Articles de recherche"
+  },
+  {
+    id: "CONEM2024-0092",
+    title: "Optimisation d'un échangeur de chaleur à tubes et coquilles à l'aide de l'algorithme génétique multi-objectifs NSGA-II",
+    authors: [
+      "Alexandre Magno Pinto Roque",
+      "Jaqueline Dias Altidis",
+      "Alexandre Carlos Rodrigues Ramos",
+      "José Aguiar dos Santos Junior"
+    ],
+    category: "Articles de recherche"
+  },
+  {
+    id: "CONEM2024-0084",
+    title: "Utilisation des essaims de drones pour les inspections dans le secteur pétrolier et gazier",
+    authors: [
+      "Gustavo Oliveira Moura",
+      "José Dhonatas Alves Sales",
+      "Fabrícia Karollyne Santos Resende",
+      "Alexandre Carlos Rodrigues Ramos"
+    ],
+    category: "Articles de recherche"
+  },
+  {
+    id: "CONEM2024-0164",
+    title: "Développement d'un manipulateur robotique à six degrés de liberté",
+    authors: [
+      "Vinicius Amorim Santos",
+      "Dr. Alexandre Carlos Rodrigues Ramos"
+    ],
+    category: "Articles de recherche"
+  },
+  {
+    id: "CONEM2024-0059",
+    title: "Développement d'un logiciel de jumeau numérique pour les applications de surveillance des structures",
+    authors: [
+      "José Dhonatas Alves Sales",
+      "Daniel de Souza Santos",
+      "Rafael Ferrari Lobato Gomes",
+      "Dr. Tarso Vilela Ferreira",
+      "Dr. Alexandre Carlos Rodrigues Ramos"
+    ],
+    category: "Articles de recherche"
+  },
+  {
+    id: "CONEM2024-0525",
+    title: "Modélisation et analyse dynamique d'une éolienne verticale sans pales : génération par vibration induite par des tourbillons",
+    authors: [
+      "Felipe Lima de Abreu",
+      "Alexandre Carlos Rodrigues Ramos",
+      "Augusto Bornschlegell",
+      "Clivaldo Oliveira",
+      "Douglas Bueno",
+      "Rodrigo Borges Santos"
+    ],
+    category: "Articles de recherche"
+  },
+  {
+    id: "CONEM2024-0278",
+    title: "Extensométrie et analyses computationnelles dans les essais de chute pour les aéronefs télépilotés",
+    authors: [
+      "Guilherme Oliveira Fonseca",
+      "Carlos Eduardo Tavares Moreira Leite",
+      "Matheus Melo Medeiros",
+      "Dr. Alexandre Carlos Rodrigues Ramos"
+    ],
+    category: "Articles de recherche"
+  },
+  {
+    id: "CONEM2024-0033",
+    title: "Système ARP à faible coût pour l'inspection aérienne et la prévision des catastrophes à l'aide de l'intelligence artificielle",
+    authors: [
+      "Matheus Melo Medeiros",
+      "Rafael Ferrari Lobato Gomes",
+      "Dr. Alexandre Carlos Rodrigues Ramos"
+    ],
+    category: "Articles de recherche"
+  },
+  {
+    id: "CONEM2024-0276",
+    title: "Analyse structurelle d'une unité offshore portable à l'aide de la modélisation non linéaire des câbles de levage",
+    authors: [
+      "Rodrigo Baldonado Lopes",
+      "Alexandre Carlos Rodrigues Ramos",
+      "Rodrigo Borges Santos",
+      "Sanderson da Conceição",
+      "Augusto Bornschlegell"
+    ],
+    category: "Articles de recherche"
+  },
+  {
+    id: "CONEM2024-0061",
+    title: "Système ARP à faible coût pour l'inspection aérienne via photogrammétrie",
+    authors: [
+      "Tiago Santana Silva",
+      "Matheus Melo Medeiros",
+      "Dr. George Victor Rocha Xavier",
+      "Dr. Tarso Vilela Ferreira",
+      "Dr. Alexandre Carlos Rodrigues Ramos"
+    ],
+    category: "Articles de recherche"
+  },
+  {
+    id: "CONEM2024-0066",
+    title: "Surveillance en ligne des structures via Internet des objets et intelligence artificielle",
+    authors: [
+      "Yuming Ruan",
+      "Daniel de Souza Santos",
+      "Rafael Ferrari Lobato Gomes",
+      "Fabrícia Karollyne Santos Resende",
+      "Dr. Alexandre Carlos Rodrigues Ramos"
+    ],
+    category: "Articles de recherche"
+  },
+  {
+    id: "CONEM2024-1778",
+    title: "Conception d'une imprimante 3D utilisant du code open source et un microcontrôleur Arduino",
+    authors: [
+      "Nataly Vitória Vieira Peres",
+      "Isabela Barros Soares",
+      "Rafael Ferreira Gregolin",
+      "Alexandre Carlos Rodrigues Ramos"
+    ],
+    category: "Articles de recherche"
+  },
+  {
+    id: "CONEM2024-0355",
+    title: "Analyse dynamique des voies ferrées à l'aide de la méthode des éléments spectraux : une approche basée sur les structures en treillis",
+    authors: [
+      "Geder Gabriel Louback Cunha",
+      "Pedro Augusto Beck",
+      "Alexandre Carlos Rodrigues Ramos",
+      "Douglas Bueno",
+      "Rodrigo Borges Santos"
+    ],
+    category: "Articles de recherche"
+  }
+]
+
+
+
 export const projetosPT = [
   {
     id: 1,
