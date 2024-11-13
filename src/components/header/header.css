@@ -12,6 +12,25 @@
   animation: header_animate 0.8s var(--transition) 0s forwards;
 }
 
+
+.language__flags {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.flag {
+  width: 24px; 
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.flag:hover {
+  transform: scale(1.1);
+}
+
+
 @keyframes header_animate {
   0% {
     transform: translateY(-100px);

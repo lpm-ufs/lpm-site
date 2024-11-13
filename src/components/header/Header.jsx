@@ -1,19 +1,22 @@
 import React, { useEffect, useState } from 'react'
 import { MdOutlineEmail } from "react-icons/md";
-
-import { FaInstagram, FaDribbble } from 'react-icons/fa'
+import { FaInstagram } from 'react-icons/fa'
 import { links } from '../../Data'
 import { BsSun, BsMoon } from 'react-icons/bs'
 import './header.css'
 import { Link } from 'react-scroll'
 import { animateScroll } from 'react-scroll'
 import shapeOne from '../../assets/shape-1.png'
+import usa from '../../assets/bandeiras/usa.svg'
+import france from '../../assets/bandeiras/france.svg'  // Importando a bandeira da França
 
+// Função para obter tema armazenado no localStorage
 const getStorageTheme = () => {
     let theme = 'light-theme'
     if (localStorage.getItem('theme')) {
         theme = localStorage.getItem('theme')
     }
+    return theme
 }
 
 const Header = () => {
@@ -34,15 +37,12 @@ const Header = () => {
     }
 
     const toggleTheme = () => {
-        if (theme === 'light-theme') {
-            setTheme('dark-theme')
-        } else {
-            setTheme('light-theme')
-        }
+        setTheme(theme === 'light-theme' ? 'dark-theme' : 'light-theme')
     }
 
     useEffect(() => {
         window.addEventListener('scroll', changeNav)
+        return () => window.removeEventListener('scroll', changeNav)
     }, [])
 
     useEffect(() => {
@@ -64,39 +64,33 @@ const Header = () => {
                 <div className={`${showMenu ? 'nav__menu show-menu' : 'nav__menu'}`}>
                     <div className="nav__data">
                         <ul className="nav__list">
-                            {
-                                links.map(({ name, path }, index) => {
-                                    return (
-                                        <li className="nav__item" key={index}>
-                                            <Link
-                                                className='nav__link text-cs'
-                                                to={path}
-                                                spy={true}
-                                                hashSpy={true}
-                                                smooth={true}
-                                                offset={-150}
-                                                duration={500}
-                                                onClick={() => setShowMenu(!showMenu)}
-                                            >
-                                                {name}
-                                            </Link>
-                                        </li>
-                                    )
-                                })
-                            }
+                            {links.map(({ name, path }, index) => (
+                                <li className="nav__item" key={index}>
+                                    <Link
+                                        className='nav__link text-cs'
+                                        to={path}
+                                        spy={true}
+                                        hashSpy={true}
+                                        smooth={true}
+                                        offset={-150}
+                                        duration={500}
+                                        onClick={() => setShowMenu(!showMenu)}
+                                    >
+                                        {name}
+                                    </Link>
+                                </li>
+                            ))}
                         </ul>
 
                         <div className="header__socials">
                             <a href="https://www.instagram.com/lpm.ufs/" className="header__social-link">
-                            <FaInstagram />
+                                <FaInstagram />
                             </a>
-
                             <a href="mailto:alexandre.ramos@academico.ufs.br" className="header__social-link">
-                            <MdOutlineEmail />
+                                <MdOutlineEmail />
                             </a>
                         </div>
                     </div>
-
                     <div className="section__deco deco__left header__deco">
                         <img src={shapeOne} alt="" className='shape' />
                     </div>
@@ -104,9 +98,13 @@ const Header = () => {
 
                 <div className="nav__btns">
                     <div className="theme__toggler" onClick={toggleTheme}>
-                        {
-                            theme === 'light-theme' ? <BsMoon /> : <BsSun />
-                        }
+                        {theme === 'light-theme' ? <BsMoon /> : <BsSun />}
+                    </div>
+                    
+                    {/* Seção das bandeiras de idioma */}
+                    <div className="language__flags">
+                        <img src={france} alt="França" className="flag" />
+                        <img src={usa} alt="EUA" className="flag" />
                     </div>
 
                     <div
