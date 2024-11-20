@@ -11,15 +11,17 @@ import Equipamentos from './components/equipamentos/Equipamentos'
 import Publicacoes from './components/publicacoes/Publicacoes'
 import Projetos from './components/projetos/Projetos'
 
+//      <Alunos />
+
+
 function App() {
   return (
     <main className="main">
       <Header />
       <Sobre />
-      <Equipamentos />
-      <Publicacoes />
-      <Alunos />
       <Projetos />
+      <Publicacoes />
+      <Equipamentos />
       <Contact />
       <Footer />
     </main>
