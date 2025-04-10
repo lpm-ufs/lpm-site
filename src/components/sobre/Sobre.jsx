@@ -19,7 +19,7 @@ const Sobre = () => {
                     <p className="home__subtitle text-cs">
                     </p>
                     <h1 className="home__title text-cs">
-                        <span>LPM</span> {t('title')} {/* Texto traduzido para o título */}
+                        <span>CIDA</span> {t('title')} {/* Texto traduzido para o título */}
                     </h1>
 
                     <div className="home__img-wrapper">
