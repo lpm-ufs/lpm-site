@@ -33,6 +33,7 @@ import iot from './assets/projetos/iot.png';
 import monitoramento_saude from './assets/projetos/monitoramento_saude.png';
 import renovaveis from './assets/projetos/renovaveis.png';
 import zenith from './assets/projetos/zenith.png';
+import swarm79 from './assets/projetos/swarm79.png';
 
 export const linksPT = [
   {
@@ -1075,7 +1076,7 @@ export const projetosPT = [
   },
   {
     id: 9,
-    img: zenith,
+    img: swarm79,
     name: 'Swarm79',
     description: 'Grupo de Robótica Aérea',
     category: 'Extensão'
@@ -1142,7 +1143,7 @@ export const projetosEN = [
   },
   {
     id: 9,
-    img: zenith,
+    img: swarm79,
     name: 'Swarm79',
     description: 'Aerial Robotics Group',
     category: 'Extension'
@@ -1210,7 +1211,7 @@ export const projetosFR = [
   },
   {
     id: 9,
-    img: zenith,
+    img: swarm79,
     name: 'Swarm79',
     description: 'Groupe de Robotique Aérienne',
     category: 'Extension'

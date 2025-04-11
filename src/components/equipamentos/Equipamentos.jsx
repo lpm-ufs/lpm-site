@@ -3,7 +3,7 @@ import { equipamentosPT, equipamentosEN, equipamentosFR } from '../../Data';
 import shapeOne from '../../assets/shape-1.png';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
-import { useTranslation } from 'react-i18next'; // Importa o hook de tradução
+import { useTranslation } from 'react-i18next';
 import "swiper/css";
 import "swiper/css/navigation";
 import './equipamentos.css';
@@ -11,7 +11,6 @@ import './equipamentos.css';
 const Equipamentos = () => {
     const { t, i18n } = useTranslation(); // Inicializa o hook de tradução
 
-    // Seleciona o arquivo de dados conforme o idioma atual
     const data = i18n.language === 'fr' ? equipamentosFR 
                 : i18n.language === 'en' ? equipamentosEN 
                 : equipamentosPT; // Padrão para português
