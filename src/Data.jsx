@@ -33,6 +33,7 @@ import iot from './assets/projetos/iot.png';
 import monitoramento_saude from './assets/projetos/monitoramento_saude.png';
 import renovaveis from './assets/projetos/renovaveis.png';
 import zenith from './assets/projetos/zenith.png';
+import swarm79 from './assets/projetos/swarm79.png';
 
 export const linksPT = [
   {
@@ -1072,6 +1073,13 @@ export const projetosPT = [
     name: 'Zenith Rocketry',
     description: 'Equipe dedicada à construção de foguetes e cubesats, promovendo alunoshops de minifoguetes e astronomia desde 2022.',
     category: 'Extensão'
+  },
+  {
+    id: 9,
+    img: swarm79,
+    name: 'Swarm79',
+    description: 'Grupo de Robótica Aérea',
+    category: 'Extensão'
   }
 ];
 
@@ -1132,7 +1140,15 @@ export const projetosEN = [
     name: 'Zenith Rocketry',
     description: 'Team dedicated to building rockets and cubesats, promoting mini-rocket workshops and astronomy since 2022.',
     category: 'Extension'
+  },
+  {
+    id: 9,
+    img: swarm79,
+    name: 'Swarm79',
+    description: 'Aerial Robotics Group',
+    category: 'Extension'
   }
+  
 ];
 
 
@@ -1192,5 +1208,13 @@ export const projetosFR = [
     name: 'Zenith Rocketry',
     description: 'Équipe dédiée à la construction de fusées et de cubesats, organisant des ateliers de mini-fusées et d\'astronomie depuis 2022.',
     category: 'Extension'
+  },
+  {
+    id: 9,
+    img: swarm79,
+    name: 'Swarm79',
+    description: 'Groupe de Robotique Aérienne',
+    category: 'Extension'
   }
+  
 ];
