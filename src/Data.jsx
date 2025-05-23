@@ -13,6 +13,8 @@ import lorawan from './assets/equipamentos/lorawan.png';
 import arduino from './assets/equipamentos/arduino.png';
 import geradorfuncoes from './assets/equipamentos/geradorfuncoes.png';
 import maquinacoordenadas from './assets/equipamentos/maquinacoordenadas.png'
+import martelo from './assets/equipamentos/martelo.png';
+import labview from './assets/equipamentos/labview.png';
 
 import fabricia from './assets/pessoal/fabricia.jpg';
 import daniel from './assets/pessoal/daniel.jpg';
@@ -287,6 +289,20 @@ export const equipamentosPT = [
     name: 'Computação e Processamento de Dados',
     description: 'Computadores de alta capacidade com 32 GB de RAM, ideais para processamento intensivo e aplicações exigentes.'
   },
+
+  {
+    id: 1,
+    img: labview, // substitua pelo import real da imagem do LabVIEW, ex: import labviewLogo from '../assets/labview.png'
+    name: 'Software LabVIEW',
+    description: 'Ambiente gráfico de programação da National Instruments, amplamente utilizado em instrumentação, aquisição de dados e controle de sistemas.',
+  },
+  {
+    id: 1,
+    img: martelo, // substitua pelo caminho real ou import da imagem
+    name: 'Martelo Instrumentado',
+    description: 'Utilizado para excitação de estruturas em testes de análise modal. Possui sensor de força embutido para medir impactos com precisão.',
+  },
+
   {
     id: 2,
     img: lorawan,
@@ -436,7 +452,7 @@ export const equipamentosFR = [
 ];
 
 
-export const icPT =[
+export const icPT = [
   {
     id: "1",
     count: "5",
@@ -1148,7 +1164,7 @@ export const projetosEN = [
     description: 'Aerial Robotics Group',
     category: 'Extension'
   }
-  
+
 ];
 
 
@@ -1216,5 +1232,5 @@ export const projetosFR = [
     description: 'Groupe de Robotique Aérienne',
     category: 'Extension'
   }
-  
+
 ];
