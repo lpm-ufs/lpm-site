@@ -356,6 +356,19 @@ export const equipamentosEN = [
     description: 'High-capacity computers with 32 GB of RAM, ideal for intensive processing and demanding applications.'
   },
   {
+  id: 1,
+  img: labview, // replace with the actual import of the LabVIEW image, e.g.: import labviewLogo from '../assets/labview.png'
+  name: 'LabVIEW Software',
+  description: 'Graphical programming environment from National Instruments, widely used in instrumentation, data acquisition, and system control.',
+},
+{
+  id: 1,
+  img: martelo, // replace with the actual path or import of the image
+  name: 'Instrumented Hammer',
+  description: 'Used for structure excitation in modal analysis tests. It has an embedded force sensor to accurately measure impacts.',
+},
+
+  {
     id: 2,
     img: lorawan,
     name: 'Communication and IoT',
@@ -407,6 +420,19 @@ export const equipamentosFR = [
     name: 'Informatique et Traitement de Données',
     description: 'Ordinateurs à haute capacité avec 32 Go de RAM, idéaux pour le traitement intensif et les applications exigeantes.'
   },
+  {
+  id: 1,
+  img: labview, // remplacez par l'import réel de l'image LabVIEW, par exemple : import labviewLogo from '../assets/labview.png'
+  name: 'Logiciel LabVIEW',
+  description: 'Environnement de programmation graphique de National Instruments, largement utilisé en instrumentation, acquisition de données et contrôle de systèmes.',
+},
+{
+  id: 1,
+  img: martelo, // remplacez par le chemin réel ou l'import de l'image
+  name: 'Marteau Instrumenté',
+  description: 'Utilisé pour l’excitation des structures lors des tests d’analyse modale. Équipé d’un capteur de force intégré pour mesurer avec précision les impacts.',
+},
+
   {
     id: 2,
     img: lorawan,
