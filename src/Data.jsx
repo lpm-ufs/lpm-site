@@ -13,6 +13,8 @@ import lorawan from './assets/equipamentos/lorawan.png';
 import arduino from './assets/equipamentos/arduino.png';
 import geradorfuncoes from './assets/equipamentos/geradorfuncoes.png';
 import maquinacoordenadas from './assets/equipamentos/maquinacoordenadas.png'
+import martelo from './assets/equipamentos/martelo.png';
+import labview from './assets/equipamentos/labview.png';
 
 import fabricia from './assets/pessoal/fabricia.jpg';
 import daniel from './assets/pessoal/daniel.jpg';
@@ -287,6 +289,20 @@ export const equipamentosPT = [
     name: 'Computação e Processamento de Dados',
     description: 'Computadores de alta capacidade com 32 GB de RAM, ideais para processamento intensivo e aplicações exigentes.'
   },
+
+  {
+    id: 1,
+    img: labview, // substitua pelo import real da imagem do LabVIEW, ex: import labviewLogo from '../assets/labview.png'
+    name: 'Software LabVIEW',
+    description: 'Ambiente gráfico de programação da National Instruments, amplamente utilizado em instrumentação, aquisição de dados e controle de sistemas.',
+  },
+  {
+    id: 1,
+    img: martelo, // substitua pelo caminho real ou import da imagem
+    name: 'Martelo Instrumentado',
+    description: 'Utilizado para excitação de estruturas em testes de análise modal. Possui sensor de força embutido para medir impactos com precisão.',
+  },
+
   {
     id: 2,
     img: lorawan,
@@ -340,6 +356,19 @@ export const equipamentosEN = [
     description: 'High-capacity computers with 32 GB of RAM, ideal for intensive processing and demanding applications.'
   },
   {
+  id: 1,
+  img: labview, // replace with the actual import of the LabVIEW image, e.g.: import labviewLogo from '../assets/labview.png'
+  name: 'LabVIEW Software',
+  description: 'Graphical programming environment from National Instruments, widely used in instrumentation, data acquisition, and system control.',
+},
+{
+  id: 1,
+  img: martelo, // replace with the actual path or import of the image
+  name: 'Instrumented Hammer',
+  description: 'Used for structure excitation in modal analysis tests. It has an embedded force sensor to accurately measure impacts.',
+},
+
+  {
     id: 2,
     img: lorawan,
     name: 'Communication and IoT',
@@ -392,6 +421,19 @@ export const equipamentosFR = [
     description: 'Ordinateurs à haute capacité avec 32 Go de RAM, idéaux pour le traitement intensif et les applications exigeantes.'
   },
   {
+  id: 1,
+  img: labview, // remplacez par l'import réel de l'image LabVIEW, par exemple : import labviewLogo from '../assets/labview.png'
+  name: 'Logiciel LabVIEW',
+  description: 'Environnement de programmation graphique de National Instruments, largement utilisé en instrumentation, acquisition de données et contrôle de systèmes.',
+},
+{
+  id: 1,
+  img: martelo, // remplacez par le chemin réel ou l'import de l'image
+  name: 'Marteau Instrumenté',
+  description: 'Utilisé pour l’excitation des structures lors des tests d’analyse modale. Équipé d’un capteur de force intégré pour mesurer avec précision les impacts.',
+},
+
+  {
     id: 2,
     img: lorawan,
     name: 'Communication et IoT',
@@ -436,7 +478,7 @@ export const equipamentosFR = [
 ];
 
 
-export const icPT =[
+export const icPT = [
   {
     id: "1",
     count: "5",
@@ -1148,7 +1190,7 @@ export const projetosEN = [
     description: 'Aerial Robotics Group',
     category: 'Extension'
   }
-  
+
 ];
 
 
@@ -1216,5 +1258,5 @@ export const projetosFR = [
     description: 'Groupe de Robotique Aérienne',
     category: 'Extension'
   }
-  
+
 ];
